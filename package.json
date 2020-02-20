@@ -11,7 +11,22 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.11.0",
+    "@nuxtjs/axios": "^5.9.3",
+    "@nuxtjs/pwa": "^3.0.0-beta.19",
+    "cross-env": "^5.2.1",
+    "vue": "^2.6.11"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^1.0.1",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.8.0",
+    "eslint-plugin-nuxt": "^0.5.0",
+    "eslint-plugin-vue": "^5.2.3",
+    "node-sass": "^4.13.0",
+    "nodemon": "^1.19.4",
+    "sass-loader": "^7.3.1",
+    "vue-select": "^3.4.0"
+  }
 }

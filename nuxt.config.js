@@ -1,52 +1,55 @@
 
 export default {
-  mode: 'universal',
-  /*
-  ** Headers of the page
-  */
+  mode: 'spa',
   head: {
-    title: process.env.npm_package_name || '',
+    htmlAttrs: {
+      lang: 'pl'
+    },
+    title: 'store',
     meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      {
+        charset: 'utf-8'
+      },
+      {
+        name: 'viewport',
+        content: 'width=device-width, initial-scale=1, user-scalable=no'
+      },
+      {
+        name: 'author',
+        content: 'Karolina Suchomska'
+      },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'store'
+      }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      {
+        rel: 'icon',
+        type: 'image/x-icon',
+        href: '/images/favicon.ico'
+      }
     ]
   },
-  /*
-  ** Customize the progress-bar color
-  */
-  loading: { color: '#fff' },
-  /*
-  ** Global CSS
-  */
+  loading: {
+    color: '#fff'
+  },
+  manifest: {
+    icons: [
+      {
+        src: '/images/favicon.ico',
+        sizes: '192x192',
+        type: 'image/png'
+      }
+    ]
+  },
   css: [
+    '@/assets/sass/main.scss'
   ],
-  /*
-  ** Plugins to load before mounting the App
-  */
   plugins: [
   ],
-  /*
-  ** Nuxt.js dev-modules
-  */
-  buildModules: [
-  ],
-  /*
-  ** Nuxt.js modules
-  */
   modules: [
-  ],
-  /*
-  ** Build configuration
-  */
-  build: {
-    /*
-    ** You can extend webpack config here
-    */
-    extend (config, ctx) {
-    }
-  }
+    '@nuxtjs/axios'
+  ]
 }
