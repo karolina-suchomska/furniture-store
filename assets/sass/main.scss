@@ -1,10 +1,17 @@
+@font-face {
+  font-family: 'Muli-black';
+  src: url('../../static/fonts/Muli-black.ttf');
+}
+
 @import 'general';
+@import 'variables';
 
 // atoms
 
 // molecules
 
 // components
+@import 'components/menu';
 @import 'components/footer';
 
 // pages
