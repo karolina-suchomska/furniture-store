@@ -1,4 +1,3 @@
-
 export default {
   mode: 'spa',
   head: {
@@ -43,6 +42,9 @@ export default {
         type: 'image/png'
       }
     ]
+  },
+  router: {
+    base: '/furniture-store/'
   },
   css: [
     '@/assets/sass/main.scss'
