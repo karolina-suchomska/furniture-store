@@ -53,5 +53,8 @@ export default {
   ],
   modules: [
     '@nuxtjs/axios'
+  ],
+  buildModules: [
+    '@nuxtjs/eslint-module'
   ]
 }

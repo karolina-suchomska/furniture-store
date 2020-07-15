@@ -1,19 +1,33 @@
 .menu {
-  display: flex;
-  justify-content: space-around;
   background-color: $color-pirmary;
   color: $text-primary;
   padding: 0 30px;
 
-  a,
-  a:visited {
-    color: $text-primary;
-    text-decoration: none;
-    padding: 20px;
+  nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
 
-    &:hover {
-      background-color: $color-secondary;
-      color: $text-secondary;
+    a,
+    a:visited {
+      display: inline-block;
+      color: $text-primary;
+      text-decoration: none;
+      padding: 20px;
+
+      &:hover {
+        background-color: $color-secondary;
+        color: $text-secondary;
+      }
+
+      &.news-link {
+        color: $color-secondary;
+
+        &:hover {
+          color: $text-secondary;
+        }
+      }
     }
   }
 }
