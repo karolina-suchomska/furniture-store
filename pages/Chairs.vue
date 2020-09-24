@@ -1,7 +1,9 @@
 <template>
   <div class="chairs">
     <div class="container">
-      <ChairList />
+      <ChairList
+          :chairs="chairList"
+      />
     </div>
   </div>
 </template>
@@ -34,11 +36,11 @@ export default {
         },
         {
           id: 5,
-          name: 'chair_2.png'
+          name: 'chair_4.png'
         },
         {
           id: 6,
-          name: 'chair_4.png'
+          name: 'chair_2.png'
         },
         {
           id: 7,

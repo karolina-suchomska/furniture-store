@@ -1,0 +1,13 @@
+.chair-list {
+  display: flex;
+  flex-wrap: wrap;
+
+  .picture {
+    width: 400px;
+  }
+
+  img {
+    max-width: 300px;
+    max-height: 400px;
+  }
+}
