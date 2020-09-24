@@ -1,19 +1,20 @@
 <template>
   <div class="chairs">
     <div class="container">
-      <ChairList
-          :chairs="chairList"
+      <ObjectsList
+          :objects="chairList"
+          :type="'chair'"
       />
     </div>
   </div>
 </template>
 
 <script>
-import ChairList from '@/components/ChairList';
+import ObjectsList from '@/components/ObjectsList';
 
 export default {
   components: {
-    ChairList
+    ObjectsList
   },
   data () {
     return {
