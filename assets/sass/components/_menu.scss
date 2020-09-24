@@ -14,7 +14,7 @@
       display: inline-block;
       color: $text-primary;
       text-decoration: none;
-      padding: 20px;
+      padding: 20px 40px;
 
       &:hover {
         background-color: $color-secondary;
@@ -27,6 +27,15 @@
         &:hover {
           color: $text-secondary;
         }
+      }
+    }
+
+    .nuxt-link-active {
+      background-color: $color-secondary;
+      color: $text-secondary;
+
+      &:visited {
+        color: $text-secondary;
       }
     }
   }
