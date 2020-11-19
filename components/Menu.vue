@@ -2,8 +2,8 @@
   <div class="menu">
     <nav>
       <router-link
-        to="/news"
-        class="news-link"
+          to="/news"
+          class="news-link"
       >
         Nowości
       </router-link>
