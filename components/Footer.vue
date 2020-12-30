@@ -1,5 +1,17 @@
 <template>
   <div class="footer">
-    @2020
+    {{ year }}
   </div>
 </template>
+
+<script>
+export default {
+  data () {
+    const data = new Date();
+
+    return {
+      year: data.getFullYear()
+    };
+  }
+};
+</script>
