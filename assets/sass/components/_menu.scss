@@ -36,6 +36,10 @@
 
       &:visited {
         color: $text-secondary;
+
+        &.news-link {
+          color: $text-secondary;
+        }
       }
     }
   }
