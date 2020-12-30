@@ -4,12 +4,16 @@
         v-for="object in objects"
         :key="object.id"
     >
-      <div class="object">
-        <img
-            :src="'pictures/' + type + '/' + object.name"
-            alt="object"
-        >
-      </div>
+      <router-link
+          :to="'/chair/' + object.id"
+      >
+        <div class="object">
+          <img
+              :src="'pictures/' + type + '/' + object.img"
+              alt="object"
+          >
+        </div>
+      </router-link>
     </div>
   </div>
 </template>

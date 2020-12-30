@@ -21,31 +21,38 @@ export default {
       chairList: [
         {
           id: 0,
-          name: 'chair_1.png'
+          img: 'chair_1.png',
+          name: 'Krzesło 1'
         },
         {
           id: 1,
-          name: 'chair_2.png'
+          img: 'chair_2.png',
+          name: 'Krzesło 2'
         },
         {
           id: 3,
-          name: 'chair_4.png'
+          img: 'chair_4.png',
+          name: 'Krzesło 3'
         },
         {
           id: 4,
-          name: 'chair_3.png'
+          img: 'chair_3.png',
+          name: 'Krzesło 4'
         },
         {
           id: 5,
-          name: 'chair_4.png'
+          img: 'chair_4.png',
+          name: 'Krzesło 5'
         },
         {
           id: 6,
-          name: 'chair_2.png'
+          img: 'chair_2.png',
+          name: 'Krzesło 6'
         },
         {
           id: 7,
-          name: 'chair_1.png'
+          img: 'chair_1.png',
+          name: 'Krzesło 7'
         }
       ]
     };
