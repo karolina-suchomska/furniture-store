@@ -11,6 +11,15 @@
   .container {
     text-align: center;
     margin-top: 50px;
+
+    .row {
+      display: flex;
+      justify-content: center;
+
+      .col {
+        margin: 20px;
+      }
+    }
   }
 
   .button-back {

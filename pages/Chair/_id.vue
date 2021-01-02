@@ -9,13 +9,19 @@
           Wróć do listy
         </button>
       </router-link>
-      <p>
-        {{ chair.name }}
-      </p>
-      <img
-          :src="'pictures/chair/' + chair.img"
-          alt="object"
-      >
+      <div class="row">
+        <div class="col">
+          <img
+              :src="'pictures/chair/' + chair.img"
+              alt="object"
+          >
+        </div>
+        <div class="col">
+          <p>
+            {{ chair.name }}
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 </template>
