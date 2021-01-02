@@ -1,0 +1,17 @@
+@mixin btn($text, $bg, $border) {
+  display: inline-block;
+  transition-duration: 0.3s;
+  color: $text;
+  background-color: $bg;
+  border: 2px solid $border;
+  font-size: 16px;
+  padding: 5px 10px;
+
+  &:hover {
+    border: 2px solid $text;
+  }
+
+  &:visited {
+    color: $text;
+  }
+}

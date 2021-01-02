@@ -1,0 +1,20 @@
+.chair {
+  max-width: 1200px;
+  position: relative;
+  margin: 0 auto;
+
+  img {
+    max-width: 400px;
+    max-height: 400px;
+  }
+
+  .container {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .button-back {
+    position: absolute;
+    left: 0;
+  }
+}

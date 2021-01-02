@@ -5,8 +5,10 @@
 
 @import 'general';
 @import 'variables';
+@import 'mixins';
 
 // atoms
+@import 'atoms/buttons.scss';
 
 // molecules
 
@@ -17,3 +19,4 @@
 
 // pages
 @import 'pages/chairs';
+@import 'pages/chair';

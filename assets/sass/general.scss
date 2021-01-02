@@ -16,3 +16,16 @@ body {
   font-size: 16px;
   font-family: 'Muli-black', sans-serif;
 }
+
+input,
+textarea,
+button,
+select {
+  outline: none;
+  cursor: pointer;
+
+  &:active,
+  &:focus {
+    outline: none;
+  }
+}
