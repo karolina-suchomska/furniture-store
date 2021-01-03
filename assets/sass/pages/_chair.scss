@@ -17,8 +17,18 @@
       justify-content: center;
 
       .col {
+        width: 100%;
         margin: 20px;
       }
+    }
+
+    .box-row-buttons {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .box-row {
+      margin: 20px 0;
     }
   }
 

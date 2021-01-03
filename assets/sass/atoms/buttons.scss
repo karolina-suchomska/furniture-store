@@ -1,3 +1,18 @@
 .button-back {
   @include btn($dark-secondary, transparent, $light-secondary);
 }
+
+.description-button,
+.technical-data-button {
+  width: 100%;
+  background-color: $color-pirmary;
+  border: none;
+  padding: 10px;
+}
+
+.box-row-buttons {
+  .active {
+    background-color: $color-secondary;
+    color: $text-secondary;
+  }
+}
