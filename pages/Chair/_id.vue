@@ -53,9 +53,24 @@
           </div>
         </div>
         <div class="col">
-          <p>
+          <h2>
             {{ chair.name }}
+          </h2>
+          <p>
+            {{ chair.price + " zł" }}
           </p>
+          <button
+              type="button"
+              class="button-buy"
+          >
+            <img
+                src="pictures/shopping-cart.svg"
+                alt="shopping"
+            >
+            <p>
+              Dodaj do koszyka
+            </p>
+          </button>
         </div>
       </div>
     </div>

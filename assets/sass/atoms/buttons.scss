@@ -16,3 +16,41 @@
     color: $text-secondary;
   }
 }
+
+.button-buy {
+  @include btn($dark-secondary, $color-secondary, transparent);
+
+  display: flex;
+  align-items: center;
+  color: $text-secondary;
+  border: none;
+  padding: 0 15px;
+  margin: 0 auto;
+  font-size: 16px;
+
+  &:hover {
+    background-color: rgba($color-secondary, 0.9);
+    border: none;
+  }
+
+  img {
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+  }
+
+  p {
+    position: relative;
+
+    &::before {
+      display: block;
+      position: absolute;
+      top: -3px;
+      left: -9px;
+      content: '';
+      width: 1px;
+      height: 25px;
+      background-color: rgba($text-secondary, 0.3);
+    }
+  }
+}
