@@ -12,7 +12,7 @@
       <div class="row">
         <div class="col">
           <img
-              :src="'pictures/chair/' + produkt.img"
+              :src="'pictures/chair/' + product.img"
               alt="object"
           >
           <div class="box">
@@ -54,20 +54,21 @@
         </div>
         <div class="col">
           <h2>
-            {{ produkt.name }}
+            {{ product.name }}
           </h2>
           <h3 class="price">
-            {{ produkt.price + " zł" }}
+            {{ product.price + " zł" }}
           </h3>
           <p>
-            {{ "Czas wysyłki: " + produkt.shippingTime + " tygodni" }}
+            {{ "Czas wysyłki: " + product.shippingTime + " tygodni" }}
           </p>
-          <div>
+          <div class="shipping-information">
             <p>
-              Koszt wysyłki od 40zł
+              {{ "Koszt wysyłki od " + product.shippingCost + " zł" }}
             </p>
+            <span class="info" />
           </div>
-          <div class="produkt-actions">
+          <div class="product-actions">
             <div class="counter">
               <span
                   class="minus"
@@ -112,7 +113,7 @@ export default {
     };
   },
   computed: {
-    produkt () {
+    product () {
       return this.$store.getters['chairs/getChair'](parseInt(this.$route.params.id));
     }
   }
