@@ -1,6 +1,7 @@
 <template>
   <div class="chair">
     <div class="container">
+      <ShippingCostInfo v-if="costInfo" />
       <router-link to="/chairs">
         <button
             class="button-back"
@@ -105,11 +106,17 @@
 </template>
 
 <script>
+import ShippingCostInfo from '@/components/molecules/ShippingCostInfo';
+
 export default {
+  components: {
+    ShippingCostInfo
+  },
   data () {
     return {
       variable: true,
-      counter: 1
+      counter: 1,
+      costInfo: true
     };
   },
   computed: {
