@@ -12,7 +12,7 @@
       <div class="row">
         <div class="col">
           <img
-              :src="'pictures/chair/' + chair.img"
+              :src="'pictures/chair/' + produkt.img"
               alt="object"
           >
           <div class="box">
@@ -54,26 +54,49 @@
         </div>
         <div class="col">
           <h2>
-            {{ chair.name }}
+            {{ produkt.name }}
           </h2>
           <h3 class="price">
-            {{ chair.price + " zł" }}
+            {{ produkt.price + " zł" }}
           </h3>
           <p>
-            {{ "Czas wysyłki: " + chair.shippingTime + " tygodni" }}
+            {{ "Czas wysyłki: " + produkt.shippingTime + " tygodni" }}
           </p>
-          <button
-              type="button"
-              class="button-buy"
-          >
-            <img
-                src="pictures/shopping-cart.svg"
-                alt="shopping"
-            >
+          <div>
             <p>
-              Dodaj do koszyka
+              Koszt wysyłki od 40zł
             </p>
-          </button>
+          </div>
+          <div class="produkt-actions">
+            <div class="counter">
+              <span
+                  class="minus"
+                  @click="counter > 1 ? counter-- : counter"
+              />
+              <input
+                  :value="counter"
+                  type="number"
+                  min="1"
+                  max="20"
+              >
+              <span
+                  class="plus"
+                  @click="counter++"
+              />
+            </div>
+            <button
+                type="button"
+                class="button-buy"
+            >
+              <img
+                  src="pictures/shopping-cart.svg"
+                  alt="shopping"
+              >
+              <p>
+                Dodaj do koszyka
+              </p>
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -84,14 +107,12 @@
 export default {
   data () {
     return {
-      variable: true
+      variable: true,
+      counter: 1
     };
   },
   computed: {
-    chairs () {
-      return this.$store.state.chairs.chairs;
-    },
-    chair () {
+    produkt () {
       return this.$store.getters['chairs/getChair'](parseInt(this.$route.params.id));
     }
   }
