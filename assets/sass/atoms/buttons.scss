@@ -36,17 +36,18 @@
   img {
     width: 25px;
     height: 25px;
-    margin-right: 20px;
+    margin-right: 10px;
   }
 
   p {
     position: relative;
+    margin: 10px;
 
     &::before {
       display: block;
       position: absolute;
       top: -3px;
-      left: -9px;
+      left: -10px;
       content: '';
       width: 1px;
       height: 25px;

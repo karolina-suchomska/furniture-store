@@ -14,7 +14,7 @@ body {
   background-color: white;
   color: black;
   font-size: 16px;
-  font-family: 'Muli-black', sans-serif;
+  font-family: 'Muli-Regular', sans-serif;
 }
 
 input,
@@ -28,4 +28,12 @@ select {
   &:focus {
     outline: none;
   }
+}
+
+a,
+h1,
+h2,
+h3,
+button {
+  font-family: 'Muli-Black', sans-serif;
 }
