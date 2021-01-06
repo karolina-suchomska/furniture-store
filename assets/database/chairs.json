@@ -3,42 +3,49 @@
     "id": 0,
     "img": "chair_1.png",
     "name": "Krzesło 1",
-    "price": "385,99"
+    "price": "385,99",
+    "shippingTime": "1-2"
   },
   {
     "id": 1,
     "img": "chair_2.png",
     "name": "Krzesło 2",
-    "price": "72,99"
+    "price": "72,99",
+    "shippingTime": "1-2"
   },
   {
     "id": 3,
     "img": "chair_4.png",
     "name": "Krzesło 3",
-    "price": "976,99"
+    "price": "976,99",
+    "shippingTime": "1-2"
   },
   {
     "id": 4,
     "img": "chair_3.png",
     "name": "Krzesło 4",
-    "price": "258,99"
+    "price": "258,99",
+    "shippingTime": "1-2"
   },
   {
     "id": 5,
     "img": "chair_4.png",
     "name": "Krzesło 5",
-    "price": "54,99"
+    "price": "54,99",
+    "shippingTime": "1-2"
   },
   {
     "id": 6,
     "img": "chair_2.png",
     "name": "Krzesło 6",
-    "price": "99,89"
+    "price": "99,89",
+    "shippingTime": "1-2"
   },
   {
     "id": 7,
     "img": "chair_1.png",
     "name": "Krzesło 7",
-    "price": "329,99"
+    "price": "329,99",
+    "shippingTime": "1-2"
   }
 ]

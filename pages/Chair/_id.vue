@@ -60,7 +60,7 @@
             {{ chair.price + " zł" }}
           </h3>
           <p>
-            Czas wysyłki: 1 - 2 tygodni
+            {{ "Czas wysyłki: " + chair.shippingTime + " tygodni" }}
           </p>
           <button
               type="button"
