@@ -1,7 +1,10 @@
 <template>
   <div class="chair">
     <div class="container">
-      <ShippingCostInfo v-if="costInfo" />
+      <ShippingCostInfo
+          v-if="popup"
+          @popup="popupValue"
+      />
       <router-link to="/chairs">
         <button
             class="button-back"
@@ -67,7 +70,10 @@
             <p>
               {{ "Koszt wysyłki od " + product.shippingCost + " zł" }}
             </p>
-            <span class="info" />
+            <button
+                class="info"
+                @click="popup = true"
+            />
           </div>
           <div class="product-actions">
             <div class="counter">
@@ -116,12 +122,17 @@ export default {
     return {
       variable: true,
       counter: 1,
-      costInfo: true
+      popup: false
     };
   },
   computed: {
     product () {
       return this.$store.getters['chairs/getChair'](parseInt(this.$route.params.id));
+    }
+  },
+  methods: {
+    popupValue (value) {
+      this.popup = value;
     }
   }
 };
