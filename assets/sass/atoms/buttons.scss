@@ -11,9 +11,14 @@
 }
 
 .box-row-buttons {
-  .active {
+  .active,
+  .active:hover {
     background-color: $color-secondary;
     color: $text-secondary;
+  }
+
+  button:hover {
+    background-color: rgba($color-pirmary, 0.7);
   }
 }
 
@@ -28,7 +33,7 @@
   font-size: 16px;
 
   &:hover {
-    background-color: rgba($color-secondary, 0.9);
+    background-color: rgba($color-secondary, 0.8);
     border: none;
   }
 
