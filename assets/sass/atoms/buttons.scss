@@ -1,5 +1,5 @@
 .button-back {
-  @include btn($dark-secondary, transparent, $light-secondary);
+  @include btn($text-secondary, $color-secondary, rgba($color-secondary, 0.8));
 }
 
 .description-button,
@@ -23,19 +23,12 @@
 }
 
 .button-buy {
-  @include btn($dark-secondary, $color-secondary, transparent);
+  @include btn($text-secondary, $color-secondary, rgba($color-secondary, 0.8));
 
   display: flex;
   align-items: center;
-  color: $text-secondary;
-  border: none;
   padding: 0 15px;
   font-size: 16px;
-
-  &:hover {
-    background-color: rgba($color-secondary, 0.8);
-    border: none;
-  }
 
   img {
     width: 25px;
