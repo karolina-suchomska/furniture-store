@@ -1,7 +1,10 @@
 <template>
   <div class="logo">
     <router-link to="/">
-      Logo
+      <img
+          src="pictures/logo.png"
+          alt="logo"
+      >
     </router-link>
   </div>
 </template>
