@@ -2,6 +2,9 @@
   <div class="main-header">
     <Logo />
     <Search />
+    <div class="shopping-basket">
+      Wózek sklpeowy
+    </div>
   </div>
 </template>
 
