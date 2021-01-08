@@ -14,17 +14,19 @@
 
 // atoms
 @import 'atoms/buttons.scss';
+@import 'atoms/shopping-cart-icon.scss';
 
 // molecules
-@import 'molecules/shippingCostInfo';
+@import 'molecules/shipping-cost-info';
 @import 'molecules/logo';
 
 // components
 @import 'components/menu';
 @import 'components/footer';
-@import 'components/objectsList';
+@import 'components/objects-list';
 @import 'components/main-header';
 
 // pages
 @import 'pages/chairs';
 @import 'pages/chair';
+@import 'pages/shopping-cart';

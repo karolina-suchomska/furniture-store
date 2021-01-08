@@ -49,12 +49,12 @@
     margin: 8px 0 15px;
 
     .info {
-      display: block;
       width: 20px;
       height: 20px;
       background-color: $color-secondary;
       border-radius: 25px;
       border: none;
+      text-align: initial;
 
       &:hover {
         background-color: rgba($color-secondary, 0.8);

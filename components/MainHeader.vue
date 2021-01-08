@@ -2,8 +2,13 @@
   <div class="main-header">
     <Logo />
     <Search />
-    <div class="shopping-basket">
-      Wózek sklpeowy
+    <div class="shopping-cart-icon">
+      <router-link to="/ShoppingCart">
+        <img
+            src="pictures/shopping-basket.svg"
+            alt="shopping-cart"
+        >
+      </router-link>
     </div>
   </div>
 </template>
