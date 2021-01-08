@@ -44,7 +44,7 @@ export default {
     ]
   },
   router: {
-    base: '/nuxt-gh-pages/'
+    base: '/furniture-store/'
   },
   css: [
     '@/assets/sass/main.scss'
