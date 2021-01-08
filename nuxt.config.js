@@ -39,7 +39,7 @@ export default {
       {
         src: '/pictures/favicon.ico',
         sizes: '192x192',
-        type: 'image/png'
+        type: 'image/ico'
       }
     ]
   },
