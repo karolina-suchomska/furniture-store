@@ -1,0 +1,44 @@
+.search {
+  display: flex;
+  max-width: 300px;
+  width: 100%;
+  border: 1px solid rgba($dark-secondary, 0.6);
+
+  input {
+    width: 100%;
+    padding: 5px 10px;
+    cursor: inherit;
+  }
+
+  button {
+    position: relative;
+    width: 36px;
+    height: 36px;
+    background-image: url("../../static/pictures/search.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-color: transparent;
+    transition-duration: 0.6s;
+
+    &:hover {
+      background-size: 46%;
+    }
+
+    &::before {
+      position: absolute;
+      top: 5px;
+      left: 0;
+      display: block;
+      width: 1px;
+      height: 26px;
+      background-color: rgba($text-primary, 0.4);
+      content: '';
+    }
+  }
+
+  input,
+  button {
+    border: none;
+  }
+}

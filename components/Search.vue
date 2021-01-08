@@ -1,5 +1,11 @@
 <template>
   <div class="search">
-    Wyszukiwarka
+    <input
+        type="text"
+        placeholder="Wyszukaj"
+    >
+    <button
+        type="button"
+    />
   </div>
 </template>
