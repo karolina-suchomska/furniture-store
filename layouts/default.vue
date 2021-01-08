@@ -1,6 +1,8 @@
 <template>
   <div>
-    <Logo />
+    <header>
+      <MainHeader />
+    </header>
     <Menu />
     <nuxt />
     <Footer />
@@ -8,13 +10,13 @@
 </template>
 
 <script>
-import Logo from '@/components/Logo';
+import MainHeader from '@/components/MainHeader';
 import Menu from '@/components/Menu';
 import Footer from '@/components/Footer';
 
 export default {
   components: {
-    Logo,
+    MainHeader,
     Menu,
     Footer
   }

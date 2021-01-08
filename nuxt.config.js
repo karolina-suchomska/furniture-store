@@ -44,7 +44,7 @@ export default {
     ]
   },
   router: {
-    base: '/furniture-store/'
+    base: '/nuxt-gh-pages/'
   },
   css: [
     '@/assets/sass/main.scss'
@@ -57,4 +57,4 @@ export default {
   buildModules: [
     '@nuxtjs/eslint-module'
   ]
-}
+};
