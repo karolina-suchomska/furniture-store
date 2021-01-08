@@ -46,6 +46,7 @@ export default {
   router: {
     base: '/furniture-store/'
   },
+  target: 'static',
   css: [
     '@/assets/sass/main.scss'
   ],
