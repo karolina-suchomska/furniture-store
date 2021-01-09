@@ -11,7 +11,7 @@
     <div class="dots">
       <span
           v-for="dot in cards"
-          :key="dot"
+          :key="dot + uuid()"
           :class="{ dot: true, active: dot.id == activeSlide }"
           @click="activate(dot.id)"
       />
@@ -54,6 +54,14 @@ export default {
   methods: {
     activate (id) {
       this.activeSlide = id;
+    },
+    uuid () {
+      return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
+        const r = Math.random() * 16 | 0;
+        const v = c === 'x' ? r : (r & 0x3 | 0x8);
+
+        return v.toString(16);
+      });
     }
   }
 };
