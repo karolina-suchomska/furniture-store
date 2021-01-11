@@ -6,7 +6,10 @@
         :style="{ display: activeCard.id != card.id ? 'none' : '' }"
         class="img"
     >
-      <img :src="card.img">
+      <img
+          :src="card.img"
+          alt="images"
+      >
     </div>
     <div class="dots">
       <span

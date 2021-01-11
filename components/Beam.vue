@@ -1,6 +1,10 @@
 <template>
   <div class="beam">
     <div class="beam-box">
+      <img
+          src="pictures/truck.svg"
+          alt="beam imgages"
+      >
       <div class="text">
         <span>
           DARMOWA DOSTAWA
@@ -11,6 +15,10 @@
       </div>
     </div>
     <div class="beam-box">
+      <img
+          src="pictures/payment.svg"
+          alt="beam imgages"
+      >
       <div class="text">
         <span>
           BEZPIECZNE PŁATNOŚCI
@@ -21,6 +29,10 @@
       </div>
     </div>
     <div class="beam-box">
+      <img
+          src="pictures/return.svg"
+          alt="beam imgages"
+      >
       <div class="text">
         <span>
           30 DNI NA ZWROT*
