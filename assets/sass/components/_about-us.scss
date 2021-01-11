@@ -1,0 +1,29 @@
+.about-us {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  line-height: 1.6;
+
+  .offer {
+    margin-top: 30px;
+
+    .offer-container {
+      display: flex;
+      align-items: center;
+      margin: 20px 0;
+
+      &:nth-of-type(2) {
+        flex-direction: row-reverse;
+      }
+
+      img {
+        max-width: 300px;
+        border-radius: 50%;
+      }
+
+      .offer-text {
+        margin: 0 60px;
+      }
+    }
+  }
+}

@@ -24,7 +24,7 @@
           BEZPIECZNE PŁATNOŚCI
         </span>
         <p>
-          dzięki Przelewy24
+          Dzięki Przelewy24
         </p>
       </div>
     </div>
@@ -35,10 +35,10 @@
       >
       <div class="text">
         <span>
-          30 DNI NA ZWROT*
+          30 DNI NA ZWROT
         </span>
         <p>
-          *szczegóły w regulaminie sklepu
+          Szczegóły w regulaminie sklepu
         </p>
       </div>
     </div>
