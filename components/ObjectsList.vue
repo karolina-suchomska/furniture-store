@@ -3,7 +3,7 @@
     <router-link
         v-for="object in objects"
         :key="object.id"
-        :to="'/chair/' + object.id"
+        :to="type + '/' + object.id"
     >
       <Product :product="object" />
     </router-link>
