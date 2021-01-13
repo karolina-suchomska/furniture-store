@@ -1,0 +1,10 @@
+.popular-products {
+  max-width: 1000px;
+  width: 100%;
+  margin: 60px auto;
+
+  .popular-container {
+    display: flex;
+    justify-content: space-between;
+  }
+}

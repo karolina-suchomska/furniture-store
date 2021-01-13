@@ -15,7 +15,7 @@
 
 <script>
 import Logo from '@/components/molecules/Logo';
-import Search from '@/components/Search';
+import Search from '@/components/molecules/Search';
 
 export default {
   components: {

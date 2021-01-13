@@ -127,7 +127,7 @@ export default {
   },
   computed: {
     product () {
-      return this.$store.getters['chairs/getChair'](parseInt(this.$route.params.id));
+      return this.$store.getters['database/getChair'](parseInt(this.$route.params.id));
     }
   },
   methods: {

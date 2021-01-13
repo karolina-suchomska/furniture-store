@@ -1,0 +1,26 @@
+[
+  {
+    "id": 0,
+    "img": "chair_1.png",
+    "name": "Krzesło 1",
+    "price": "385,99",
+    "shippingTime": "1-2",
+    "shippingCost": "40"
+  },
+  {
+    "id": 3,
+    "img": "chair_4.png",
+    "name": "Krzesło 3",
+    "price": "976,99",
+    "shippingTime": "1-2",
+    "shippingCost": "40"
+  },
+  {
+    "id": 7,
+    "img": "chair_1.png",
+    "name": "Krzesło 7",
+    "price": "329,99",
+    "shippingTime": "1-2",
+    "shippingCost": "40"
+  }
+]

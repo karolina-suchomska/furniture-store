@@ -1,21 +1,4 @@
 .objects-list {
   display: flex;
   flex-wrap: wrap;
-
-  .object {
-    width: 350px;
-    height: 350px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    &:hover {
-      box-shadow: 0px 0px 15px 1px $shadow;
-    }
-  }
-
-  img {
-    max-width: 250px;
-    max-height: 300px;
-  }
 }

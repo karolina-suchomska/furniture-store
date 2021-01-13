@@ -1,25 +1,22 @@
 <template>
   <div class="objects-list">
-    <div
+    <router-link
         v-for="object in objects"
         :key="object.id"
+        :to="'/chair/' + object.id"
     >
-      <router-link
-          :to="'/chair/' + object.id"
-      >
-        <div class="object">
-          <img
-              :src="'pictures/' + type + '/' + object.img"
-              alt="object"
-          >
-        </div>
-      </router-link>
-    </div>
+      <Product :product="object" />
+    </router-link>
   </div>
 </template>
 
 <script>
+import Product from '@/components/molecules/Product';
+
 export default {
+  components: {
+    Product
+  },
   props: {
     objects: {
       type: Array,

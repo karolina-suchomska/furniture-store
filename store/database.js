@@ -1,7 +1,9 @@
 import chairs from '@/assets/database/chairs.json';
+import popular from '@/assets/database/popular-products.json';
 
 export const state = () => ({
-  chairs
+  chairs,
+  popular
 });
 
 export const getters = {
