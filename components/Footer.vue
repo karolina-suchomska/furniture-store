@@ -1,6 +1,6 @@
 <template>
   <div class="footer">
-    {{ year }}
+    {{ '&copy; ' + year + ' furniture-store' }}
   </div>
 </template>
 
