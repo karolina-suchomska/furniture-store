@@ -35,6 +35,7 @@ select {
 }
 
 a {
+  color: $text-primary;
   text-decoration: none;
 
   &:visited {
