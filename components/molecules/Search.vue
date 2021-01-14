@@ -45,8 +45,6 @@ export default {
             ([key, value]) => {
               if (key === 'name' && value.toString().toLowerCase().includes(self.dynamicSearch.toLowerCase())) {
                 checkedSearch = true;
-              } else {
-                self.notFound = true;
               }
             }
           );
@@ -60,31 +58,39 @@ export default {
     search () {
       const self = this;
 
-      Object.entries(self.productSearch).forEach(
-        ([key, value]) => {
-          Object.entries(value).forEach(
-            ([keyCorrect, valueCorrect]) => {
-              if (keyCorrect === 'name' && valueCorrect.toLowerCase() === self.dynamicSearch.toLowerCase()) {
-                self.notFound = false;
-              } else {
-                return 0;
+      if (self.productSearch.length === 0) {
+        self.notFound = true;
+      } else if (self.productSearch.length === 1) {
+        Object.entries(self.productSearch).forEach(
+          ([key, value]) => {
+            Object.entries(value).forEach(
+              ([keyCorrect, valueCorrect]) => {
+                if (keyCorrect === 'name' && valueCorrect.toLowerCase() === self.dynamicSearch.toLowerCase()) {
+                  self.notFound = false;
+                } else {
+                  return 0;
+                }
               }
-            }
-          );
-        }
-      );
+            );
+          }
+        );
 
-      Object.entries(self.productSearch).forEach(
-        ([key, value]) => {
-          Object.entries(value).forEach(
-            ([keySearch, valueSearch]) => {
-              if (keySearch === 'id') {
-                return self.$router.push('/chair/' + valueSearch);
+        Object.entries(self.productSearch).forEach(
+          ([key, value]) => {
+            Object.entries(value).forEach(
+              ([keySearch, valueSearch]) => {
+                if (keySearch === 'id') {
+                  self.notFound = false;
+                  self.$router.push('/chair/' + valueSearch);
+                }
               }
-            }
-          );
-        }
-      );
+            );
+          }
+        );
+      } else if (self.productSearch.length > 1) {
+        self.$store.commit('database/searchProduct', self.productSearch);
+        self.$router.push('/search/');
+      }
     }
   }
 };

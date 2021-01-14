@@ -3,7 +3,7 @@
     <router-link
         v-for="object in objects"
         :key="object.id"
-        :to="type + '/' + object.id"
+        :to="'/' + object.type + '/' + object.id"
     >
       <Product :product="object" />
     </router-link>
@@ -21,10 +21,6 @@ export default {
     objects: {
       type: Array,
       default: null
-    },
-    type: {
-      type: String,
-      default: ''
     }
   }
 };

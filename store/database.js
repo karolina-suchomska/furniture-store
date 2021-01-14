@@ -3,8 +3,15 @@ import popular from '@/assets/database/popular-products.json';
 
 export const state = () => ({
   chairs,
-  popular
+  popular,
+  searchProduct: ''
 });
+
+export const mutations = {
+  searchProduct (state, data) {
+    state.searchProduct = data;
+  }
+};
 
 export const getters = {
   getChair: state => (id) => {

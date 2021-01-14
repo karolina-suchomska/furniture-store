@@ -1,9 +1,17 @@
 <template>
-  <div class="chairs">
-    <div class="container">
+  <div class="search-page">
+    <div v-if="products">
+      <h3>
+        Znalezione produkty:
+      </h3>
       <ObjectsList
           :objects="products"
       />
+    </div>
+    <div v-else>
+      <h3>
+        Nie znaleziono produktów.
+      </h3>
     </div>
   </div>
 </template>
@@ -17,7 +25,7 @@ export default {
   },
   computed: {
     products () {
-      return this.$store.state.database.chairs;
+      return this.$store.state.database.searchProduct;
     }
   }
 };
