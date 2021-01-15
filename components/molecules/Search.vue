@@ -27,12 +27,16 @@ export default {
   data () {
     return {
       dynamicSearch: '',
-      notFound: false
+      notFound: false,
+      products: []
     };
   },
   computed: {
-    products () {
+    chairs () {
       return this.$store.state.database.chairs;
+    },
+    tables () {
+      return this.$store.state.database.tables;
     },
     productSearch () {
       return this.products.filter(
@@ -43,7 +47,7 @@ export default {
 
           Object.entries(product).forEach(
             ([key, value]) => {
-              if (key === 'name' && value.toString().toLowerCase().includes(self.dynamicSearch.toLowerCase())) {
+              if ((key === 'name' || key === 'category') && value.toString().toLowerCase().includes(self.dynamicSearch.toLowerCase())) {
                 checkedSearch = true;
               }
             }
@@ -58,6 +62,11 @@ export default {
     search () {
       const self = this;
 
+      self.products = [
+        ...self.chairs,
+        ...self.tables
+      ];
+
       if (self.productSearch.length === 0) {
         self.notFound = true;
       } else if (self.productSearch.length === 1) {
@@ -65,7 +74,7 @@ export default {
           ([key, value]) => {
             Object.entries(value).forEach(
               ([keyCorrect, valueCorrect]) => {
-                if (keyCorrect === 'name' && valueCorrect.toLowerCase() === self.dynamicSearch.toLowerCase()) {
+                if ((keyCorrect === 'name' || keyCorrect === 'category') && valueCorrect.toLowerCase() === self.dynamicSearch.toLowerCase()) {
                   self.notFound = false;
                 } else {
                   return 0;

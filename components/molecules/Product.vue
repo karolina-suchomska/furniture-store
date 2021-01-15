@@ -1,7 +1,7 @@
 <template>
   <div class="product">
     <img
-        :src="'pictures/chair/' + product.img"
+        :src="'pictures/' + product.type + '/' + product.img"
         alt="product"
     >
     <div class="product-text">

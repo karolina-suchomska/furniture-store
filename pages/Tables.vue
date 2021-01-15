@@ -1,5 +1,25 @@
 <template>
-  <div class="tables">
-    Strona ze stołami
+  <div class="chairs">
+    <div class="container">
+      <ObjectsList
+          :objects="products"
+          :type="'table'"
+      />
+    </div>
   </div>
 </template>
+
+<script>
+import ObjectsList from '@/components/ObjectsList';
+
+export default {
+  components: {
+    ObjectsList
+  },
+  computed: {
+    products () {
+      return this.$store.state.database.tables;
+    }
+  }
+};
+</script>

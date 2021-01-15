@@ -7,7 +7,7 @@
       <router-link
           v-for="product in products"
           :key="product.id"
-          :to="'/chair/' + product.id"
+          :to="'/' + product.type + '/' + product.id"
       >
         <Product :product="product" />
       </router-link>
