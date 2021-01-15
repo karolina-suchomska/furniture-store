@@ -7,16 +7,18 @@
     "shippingTime": "1-2",
     "shippingCost": "40",
     "type": "chairs",
+    "species": "chair",
     "category": "Krzesła"
   },
   {
     "id": 1,
     "img": "chair_2.png",
-    "name": "Krzesło 2",
+    "name": "Drewniane Krzesło",
     "price": "72,99",
     "shippingTime": "1-2",
     "shippingCost": "40",
     "type": "chairs",
+    "species": "chair",
     "category": "Krzesła"
   },
   {
@@ -27,16 +29,18 @@
     "shippingTime": "1-2",
     "shippingCost": "40",
     "type": "chairs",
+    "species": "chair",
     "category": "Krzesła"
   },
   {
     "id": 3,
     "img": "chair_4.png",
-    "name": "Krzesło 3",
+    "name": "Czarne Krzesło",
     "price": "976,99",
     "shippingTime": "1-2",
     "shippingCost": "40",
     "type": "chairs",
+    "species": "chair",
     "category": "Krzesła"
   },
   {
@@ -47,6 +51,7 @@
     "shippingTime": "1-2",
     "shippingCost": "40",
     "type": "chairs",
+    "species": "chair",
     "category": "Krzesła"
   },
   {
@@ -57,6 +62,7 @@
     "shippingTime": "1-2",
     "shippingCost": "40",
     "type": "chairs",
+    "species": "chair",
     "category": "Krzesła"
   },
   {
@@ -67,6 +73,7 @@
     "shippingTime": "1-2",
     "shippingCost": "40",
     "type": "chairs",
+    "species": "chair",
     "category": "Krzesła"
   },
   {
@@ -77,6 +84,7 @@
     "shippingTime": "1-2",
     "shippingCost": "40",
     "type": "chairs",
+    "species": "chair",
     "category": "Krzesła"
   },
   {
@@ -87,6 +95,7 @@
     "shippingTime": "1-2",
     "shippingCost": "40",
     "type": "chairs",
+    "species": "chair",
     "category": "Krzesła"
   }
 ]

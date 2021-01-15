@@ -3,7 +3,6 @@
     <div class="container">
       <ObjectsList
           :objects="products"
-          :type="'table'"
       />
     </div>
   </div>

@@ -61,6 +61,8 @@ export default {
   methods: {
     search () {
       const self = this;
+      let id = 0;
+      let type = '';
 
       self.products = [
         ...self.chairs,
@@ -72,11 +74,14 @@ export default {
       } else if (self.productSearch.length === 1) {
         Object.entries(self.productSearch).forEach(
           ([key, value]) => {
+            id = value.id;
+            type = value.species;
             Object.entries(value).forEach(
               ([keyCorrect, valueCorrect]) => {
                 if ((keyCorrect === 'name' || keyCorrect === 'category') && valueCorrect.toLowerCase() === self.dynamicSearch.toLowerCase()) {
                   self.notFound = false;
                 } else {
+                  self.notFound = false;
                   return 0;
                 }
               }
@@ -84,18 +89,7 @@ export default {
           }
         );
 
-        Object.entries(self.productSearch).forEach(
-          ([key, value]) => {
-            Object.entries(value).forEach(
-              ([keySearch, valueSearch]) => {
-                if (keySearch === 'id') {
-                  self.notFound = false;
-                  self.$router.push('/chair/' + valueSearch);
-                }
-              }
-            );
-          }
-        );
+        return self.$router.push('/' + type + '/' + id);
       } else if (self.productSearch.length > 1) {
         self.$store.commit('database/searchProduct', self.productSearch);
         self.$router.push('/search/');
