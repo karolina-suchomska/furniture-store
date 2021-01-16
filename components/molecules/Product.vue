@@ -1,16 +1,25 @@
 <template>
   <div class="product">
-    <img
-        :src="'pictures/' + product.type + '/' + product.img"
-        alt="product"
-    >
-    <div class="product-text">
-      <h4 class="product-name">
-        {{ product.name }}
-      </h4>
-      <p class="product-price">
-        {{ product.price + ' zł' }}
-      </p>
+    <div class="product-img">
+      <img
+          :src="'pictures/' + product.type + '/' + product.img"
+          alt="product"
+      >
+    </div>
+    <div class="product-container">
+      <div class="product-text">
+        <h4 class="product-name">
+          {{ product.name }}
+        </h4>
+        <p class="product-price">
+          {{ product.price + ' zł' }}
+        </p>
+      </div>
+      <button
+          class="button-to-cart"
+      >
+        Dodaj do koszyka
+      </button>
     </div>
   </div>
 </template>

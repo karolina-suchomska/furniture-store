@@ -1,32 +1,35 @@
 [
   {
-    "id": 7,
-    "img": "chair_1.png",
-    "name": "Krzesło 7",
-    "price": "329,99",
+    "id": 1,
+    "img": "chair_2.png",
+    "name": "Drewniane Krzesło",
+    "price": "72,99",
     "shippingTime": "1-2",
     "shippingCost": "40",
     "type": "chairs",
+    "species": "chair",
     "category": "Krzesła"
   },
   {
-    "id": 16,
-    "img": "table_2.png",
-    "name": "Stół 6",
-    "price": "99,89",
+    "id": 12,
+    "img": "table_4.png",
+    "name": "Stół",
+    "price": "976,99",
     "shippingTime": "1-2",
     "shippingCost": "40",
     "type": "tables",
+    "species": "table",
     "category": "Stoły"
   },
   {
-    "id": 8,
-    "img": "chair_2.png",
-    "name": "Krzesło",
-    "price": "198,99",
+    "id": 5,
+    "img": "chair_4.png",
+    "name": "Krzesło 5",
+    "price": "54,99",
     "shippingTime": "1-2",
     "shippingCost": "40",
     "type": "chairs",
+    "species": "chair",
     "category": "Krzesła"
   }
 ]

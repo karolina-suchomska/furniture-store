@@ -77,3 +77,7 @@
     transform: rotate(45deg);
   }
 }
+
+.button-to-cart {
+  @include btn($text-primary, transparent, rgba($color-secondary, 0.8));
+}
