@@ -95,6 +95,7 @@
             <button
                 type="button"
                 class="button-buy"
+                @click="addToShoppingCart()"
             >
               <img
                   src="pictures/shopping-cart.svg"
@@ -134,6 +135,9 @@ export default {
   methods: {
     popupValue (value) {
       this.popup = value;
+    },
+    addToShoppingCart () {
+      this.$store.commit('database/addToShoppingCart', this.product);
     }
   }
 };

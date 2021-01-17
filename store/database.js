@@ -6,12 +6,16 @@ export const state = () => ({
   chairs,
   tables,
   popular,
-  searchProduct: ''
+  searchProduct: '',
+  shoppingCart: []
 });
 
 export const mutations = {
   searchProduct (state, data) {
     state.searchProduct = data;
+  },
+  addToShoppingCart (state, product) {
+    state.shoppingCart.push(product);
   }
 };
 
