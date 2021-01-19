@@ -15,7 +15,8 @@
     "@nuxtjs/axios": "^5.12.4",
     "cross-env": "^5.2.1",
     "nuxt": "^2.14.12",
-    "vue": "^2.6.12"
+    "vue": "^2.6.12",
+    "vuex-persistedstate": "^4.0.0-beta.3"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^2.0.0",

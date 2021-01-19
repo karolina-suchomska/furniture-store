@@ -50,8 +50,11 @@ export default {
   css: [
     '@/assets/sass/main.scss'
   ],
-  plugins: [
-  ],
+  // plugins: [
+  //   {
+  //     src: '~/plugins/persistedState.client.js'
+  //   }
+  // ],
   modules: [
     '@nuxtjs/axios'
   ],
