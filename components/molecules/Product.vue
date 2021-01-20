@@ -12,11 +12,12 @@
           {{ product.name }}
         </h4>
         <p class="product-price">
-          {{ product.price + ' zł' }}
+          {{ new Intl.NumberFormat().format(product.price) + ' zł' }}
         </p>
       </div>
       <button
           class="button-to-cart"
+          @click.prevent="addToShoppingCart()"
       >
         Dodaj do koszyka
       </button>
@@ -30,6 +31,11 @@ export default {
     product: {
       type: Object,
       default: null
+    }
+  },
+  methods: {
+    addToShoppingCart () {
+      this.$store.commit('database/addToShoppingCart', this.product);
     }
   }
 };

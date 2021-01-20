@@ -18,7 +18,49 @@
         v-else
         class="shoping-cart-full"
     >
-      {{ products }}
+      <table>
+        <thead>
+          <tr>
+            <th>
+              Produkt
+            </th>
+            <th>
+              Cena
+            </th>
+            <th>
+              Ilość
+            </th>
+            <th>
+              Razem
+            </th>
+            <th>
+              Usuń
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr
+              v-for="product in products"
+              :key="product.id"
+          >
+            <td>
+              {{ product.name }}
+            </td>
+            <td>
+              {{ new Intl.NumberFormat().format(product.price) }}
+            </td>
+            <td>
+              {{ product.quantity }}
+            </td>
+            <td>
+              {{ sum (product.price, product.quantity) }}
+            </td>
+            <td>
+              x
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
 </template>
@@ -33,6 +75,11 @@ export default {
   computed: {
     products () {
       return this.$store.state.database.shoppingCart;
+    }
+  },
+  methods: {
+    sum (price, quantity) {
+      return new Intl.NumberFormat().format(price * quantity);
     }
   }
 };

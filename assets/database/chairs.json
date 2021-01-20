@@ -3,99 +3,117 @@
     "id": 0,
     "img": "chair_1.png",
     "name": "Krzesło 1",
-    "price": "385,99",
+    "price": 385.99,
     "shippingTime": "1-2",
     "shippingCost": "40",
     "type": "chairs",
     "species": "chair",
-    "category": "Krzesła"
+    "category": "Krzesła",
+    "code": "D46HSW",
+    "quantity": 1
   },
   {
     "id": 1,
     "img": "chair_2.png",
     "name": "Drewniane Krzesło",
-    "price": "72,99",
+    "price": 72.99,
     "shippingTime": "1-2",
     "shippingCost": "40",
     "type": "chairs",
     "species": "chair",
-    "category": "Krzesła"
+    "category": "Krzesła",
+    "code": "CF56JO",
+    "quantity": 1
   },
   {
     "id": 2,
     "img": "chair_3.png",
     "name": "Krzesło 2",
-    "price": "154,89",
+    "price": 154.89,
     "shippingTime": "1-2",
     "shippingCost": "40",
     "type": "chairs",
     "species": "chair",
-    "category": "Krzesła"
+    "category": "Krzesła",
+    "code": "F32J8U",
+    "quantity": 1
   },
   {
     "id": 3,
     "img": "chair_4.png",
     "name": "Czarne Krzesło",
-    "price": "976,99",
+    "price": 976.99,
     "shippingTime": "1-2",
     "shippingCost": "40",
     "type": "chairs",
     "species": "chair",
-    "category": "Krzesła"
+    "category": "Krzesła",
+    "code": "AD32K9",
+    "quantity": 1
   },
   {
     "id": 4,
     "img": "chair_3.png",
     "name": "Krzesło 4",
-    "price": "258,99",
+    "price": 258.99,
     "shippingTime": "1-2",
     "shippingCost": "40",
     "type": "chairs",
     "species": "chair",
-    "category": "Krzesła"
+    "category": "Krzesła",
+    "code": "P87F4S",
+    "quantity": 1
   },
   {
     "id": 5,
     "img": "chair_4.png",
     "name": "Krzesło 5",
-    "price": "54,99",
+    "price": 54.99,
     "shippingTime": "1-2",
     "shippingCost": "40",
     "type": "chairs",
     "species": "chair",
-    "category": "Krzesła"
+    "category": "Krzesła",
+    "code": "R45G6H",
+    "quantity": 1
   },
   {
     "id": 6,
     "img": "chair_2.png",
     "name": "Krzesło 6",
-    "price": "99,89",
+    "price": 99.89,
     "shippingTime": "1-2",
     "shippingCost": "40",
     "type": "chairs",
     "species": "chair",
-    "category": "Krzesła"
+    "category": "Krzesła",
+    "code": "C3S79M",
+    "quantity": 1
   },
   {
     "id": 7,
     "img": "chair_1.png",
     "name": "Krzesło 7",
-    "price": "329,99",
+    "price": 329.99,
     "shippingTime": "1-2",
     "shippingCost": "40",
     "type": "chairs",
     "species": "chair",
-    "category": "Krzesła"
+    "category": "Krzesła",
+    "code": "K76L4D",
+    "quantity": 1
   },
   {
     "id": 8,
     "img": "chair_2.png",
     "name": "Krzesło",
-    "price": "198,99",
+    "price": 198.99,
     "shippingTime": "1-2",
     "shippingCost": "40",
     "type": "chairs",
     "species": "chair",
-    "category": "Krzesła"
+    "category": "Krzesła",
+    "code": "G5J87K",
+    "quantity": 1
   }
 ]
