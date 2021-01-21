@@ -1,15 +1,5 @@
 .shipping-cost-info {
-  position: absolute;
-  top: calc(30vh - 10%);
-  left: 0;
-  right: 0;
-  max-width: 700px;
-  width: 100%;
-  background-color: $color-pirmary;
-  padding: 30px 50px;
-  margin: 0 auto;
   text-align: left;
-  z-index: 1;
 
   h2 {
     margin-top: 5px;
@@ -24,14 +14,4 @@
       justify-content: space-between;
     }
   };
-
-  .close {
-    position: relative;
-
-    .button-close {
-      position: absolute;
-      top: 0;
-      right: 0;
-    }
-  }
 }

@@ -1,5 +1,11 @@
 <template>
   <div class="shopping-cart">
+    <PopUpDelete
+        v-if="popup"
+        :id-product="idProduct"
+        @popup="popupValue"
+        @deleteProduct="popupDeleteProduct"
+    />
     <h3>
       Koszyk
     </h3>
@@ -10,9 +16,12 @@
       <p>
         Twój koszyk jest pusty.
       </p>
-      <button class="button-back">
+      <router-link
+          to="/"
+          class="button-back"
+      >
         Wróć na stronę główną
-      </button>
+      </router-link>
     </div>
     <div
         v-else
@@ -82,10 +91,17 @@
 </template>
 
 <script>
+import PopUpDelete from '@/components/molecules/PopUpDelete';
+
 export default {
+  components: {
+    PopUpDelete
+  },
   data () {
     return {
-      value: true
+      value: true,
+      popup: false,
+      idProduct: 0
     };
   },
   computed: {
@@ -98,7 +114,15 @@ export default {
       return new Intl.NumberFormat().format(price * quantity);
     },
     deleteProduct (id) {
-      this.$store.commit('database/deleteProduct', id);
+      this.popup = true;
+      this.idProduct = id;
+    },
+    popupValue (value) {
+      this.popup = value;
+    },
+    popupDeleteProduct (value) {
+      this.$store.commit('database/deleteProduct', this.idProduct);
+      this.popup = value;
     }
   }
 };

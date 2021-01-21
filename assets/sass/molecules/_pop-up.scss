@@ -1,0 +1,26 @@
+.pop-up {
+  position: relative;
+
+  .pop-up-container {
+    position: absolute;
+    top: calc(10vh - 10%);
+    left: 0;
+    right: 0;
+    max-width: 700px;
+    width: 100%;
+    background-color: $color-pirmary;
+    padding: 30px 50px;
+    margin: 0 auto;
+    z-index: 1;
+  }
+
+  .close {
+    position: relative;
+
+    .button-close {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+  }
+}

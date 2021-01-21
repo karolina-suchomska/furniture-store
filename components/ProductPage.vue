@@ -1,7 +1,7 @@
 <template>
   <div class="product-page">
     <div class="container">
-      <ShippingCostInfo
+      <PopUpInfo
           v-if="popup"
           @popup="popupValue"
       />
@@ -113,11 +113,11 @@
 </template>
 
 <script>
-import ShippingCostInfo from '@/components/molecules/ShippingCostInfo';
+import PopUpInfo from '@/components/molecules/PopUpInfo';
 
 export default {
   components: {
-    ShippingCostInfo
+    PopUpInfo
   },
   props: {
     product: {
