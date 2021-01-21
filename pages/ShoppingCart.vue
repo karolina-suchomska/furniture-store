@@ -44,16 +44,29 @@
               :key="product.id"
           >
             <td>
-              {{ product.name }}
+              <router-link
+                  class="product-name"
+                  :to="'/' + product.species + '/' + product.id"
+              >
+                <div class="product-img">
+                  <img
+                      :src="'pictures/' + product.type + '/' + product.img"
+                      alt="product images"
+                  >
+                </div>
+                <span>
+                  {{ product.name }}
+                </span>
+              </router-link>
             </td>
             <td>
-              {{ new Intl.NumberFormat().format(product.price) }}
+              {{ new Intl.NumberFormat().format(product.price) + ' zł' }}
             </td>
             <td>
               {{ product.quantity }}
             </td>
             <td>
-              {{ sum (product.price, product.quantity) }}
+              {{ sum (product.price, product.quantity) + ' zł' }}
             </td>
             <td>
               x
