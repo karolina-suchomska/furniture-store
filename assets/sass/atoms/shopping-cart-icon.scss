@@ -21,8 +21,10 @@
     border-radius: 50%;
     color: $text-secondary;
     background-color: $alert;
-    font-size: 13px;
+    font-family: 'Muli-Regular', sans-serif;
+    font-size: 10px;
     text-align: center;
-    padding: 2px;
+    padding: 1px;
+    border: 2px solid $text-secondary;
   }
 }
