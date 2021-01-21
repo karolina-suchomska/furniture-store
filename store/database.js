@@ -16,6 +16,16 @@ export const mutations = {
   },
   addToShoppingCart (state, product) {
     state.shoppingCart.push(product);
+  },
+  deleteProduct (state, id) {
+    const products = [];
+
+    state.shoppingCart.find((product) => {
+      if (product.id !== id) {
+        products.push(product);
+      }
+    });
+    state.shoppingCart = products;
   }
 };
 

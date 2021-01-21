@@ -53,31 +53,53 @@
 }
 
 .button-close {
-  position: relative;
-  width: 25px;
-  height: 25px;
-
-  &::before,
-  &::after {
-    position: absolute;
-    top: 10px;
-    left: 2px;
-    display: block;
-    width: 18px;
-    height: 2px;
-    background-color: rgba($dark-secondary, 0.9);
-    content: '';
-  }
-
-  &::before {
-    transform: rotate(-45deg);
-  }
-
-  &::after {
-    transform: rotate(45deg);
-  }
+  @include btn-x(rgba($dark-secondary, 0.9));
 }
 
 .button-to-cart {
   @include btn($text-primary, transparent, rgba($color-secondary, 0.8));
+}
+
+.button-delete {
+  @include btn-x($alert);
+
+  border: none;
+  background-color: transparent;
+
+  &::before,
+  &::after {
+    height: 4px;
+  }
+
+  &:hover::before {
+    animation: motionBefore 0.7s forwards;
+  }
+
+  &:hover::after {
+    animation: motionAfter 0.7s forwards;
+  }
+
+  @keyframes motionBefore {
+    0% {
+      transform: rotate(-45deg);
+    }
+    50% {
+      transform: rotate(-35deg);
+    }
+    100% {
+      transform: rotate(-45deg);
+    }
+  }
+
+  @keyframes motionAfter {
+    0% {
+      transform: rotate(45deg);
+    }
+    50% {
+      transform: rotate(35deg);
+    }
+    100% {
+      transform: rotate(45deg);
+    }
+  }
 }

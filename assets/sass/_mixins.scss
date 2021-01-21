@@ -15,3 +15,31 @@
     color: $text;
   }
 }
+
+
+@mixin btn-x($bg-x) {
+  position: relative;
+  width: 25px;
+  height: 25px;
+
+  &::before,
+  &::after {
+    position: absolute;
+    top: 10px;
+    left: 2px;
+    display: block;
+    width: 18px;
+    height: 2px;
+    background-color: $bg-x;
+    content: '';
+  }
+
+  &::before {
+    transform: rotate(-45deg);
+  }
+
+  &::after {
+    transform: rotate(45deg);
+  }
+}
+

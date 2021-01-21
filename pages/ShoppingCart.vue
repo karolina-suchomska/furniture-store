@@ -69,7 +69,10 @@
               {{ sum (product.price, product.quantity) + ' zł' }}
             </td>
             <td>
-              x
+              <button
+                  class="button-delete"
+                  @click="deleteProduct (product.id)"
+              />
             </td>
           </tr>
         </tbody>
@@ -93,6 +96,9 @@ export default {
   methods: {
     sum (price, quantity) {
       return new Intl.NumberFormat().format(price * quantity);
+    },
+    deleteProduct (id) {
+      this.$store.commit('database/deleteProduct', id);
     }
   }
 };

@@ -1,4 +1,6 @@
 .shopping-cart-icon {
+  position: relative;
+
   img {
     max-width: 40px;
     width: 100%;
@@ -8,5 +10,19 @@
     &:hover {
       transform: scale(1.2);
     }
+  }
+
+  .number-of-products {
+    position: absolute;
+    top: 0;
+    right: -8px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: $text-secondary;
+    background-color: $alert;
+    font-size: 13px;
+    text-align: center;
+    padding: 2px;
   }
 }

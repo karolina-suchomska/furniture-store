@@ -2,12 +2,21 @@
   <div class="main-header">
     <Logo />
     <Search />
-    <div class="shopping-cart-icon">
-      <router-link to="/ShoppingCart">
+    <div>
+      <router-link
+          to="/ShoppingCart"
+          class="shopping-cart-icon"
+      >
         <img
             src="pictures/shopping-basket.svg"
             alt="shopping-cart"
         >
+        <p
+            v-if="products.length > 0"
+            class="number-of-products"
+        >
+          {{ products.length }}
+        </p>
       </router-link>
     </div>
   </div>
@@ -21,6 +30,11 @@ export default {
   components: {
     Logo,
     Search
+  },
+  computed: {
+    products () {
+      return this.$store.state.database.shoppingCart;
+    }
   }
 };
 </script>
