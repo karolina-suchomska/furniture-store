@@ -1,5 +1,11 @@
 <template>
   <div class="product-page">
+    <div
+        v-if="value"
+        class="added-to-cart"
+    >
+      Dodano do koszyka!
+    </div>
     <div class="container">
       <PopUpInfo
           v-if="popup"
@@ -129,7 +135,8 @@ export default {
     return {
       variable: true,
       counter: 1,
-      popup: false
+      popup: false,
+      value: false
     };
   },
   methods: {
@@ -138,6 +145,11 @@ export default {
     },
     addToShoppingCart () {
       this.$store.commit('database/addToShoppingCart', this.product);
+      this.value = true;
+
+      setTimeout(() => {
+        this.value = false;
+      }, 1000);
     }
   }
 };

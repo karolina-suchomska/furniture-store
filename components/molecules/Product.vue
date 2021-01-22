@@ -1,5 +1,11 @@
 <template>
   <div class="product">
+    <div
+        v-if="value"
+        class="added-to-cart"
+    >
+      Dodano do koszyka!
+    </div>
     <div class="product-img">
       <img
           :src="'pictures/' + product.type + '/' + product.img"
@@ -31,9 +37,19 @@ export default {
       default: null
     }
   },
+  data () {
+    return {
+      value: false
+    };
+  },
   methods: {
     addToShoppingCart () {
       this.$store.commit('database/addToShoppingCart', this.product);
+      this.value = true;
+
+      setTimeout(() => {
+        this.value = false;
+      }, 1000);
     }
   }
 };
