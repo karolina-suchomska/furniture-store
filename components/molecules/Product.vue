@@ -18,9 +18,7 @@
       <button
           class="button-to-cart"
           @click.prevent="addToShoppingCart()"
-      >
-        Dodaj do koszyka
-      </button>
+      />
     </div>
   </div>
 </template>
