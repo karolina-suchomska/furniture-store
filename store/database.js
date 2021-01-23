@@ -15,7 +15,22 @@ export const mutations = {
     state.searchProduct = data;
   },
   addToShoppingCart (state, product) {
-    state.shoppingCart.push(product);
+    let value = false;
+
+    if (state.shoppingCart.length > 0) {
+      state.shoppingCart.find((cart) => {
+        if (cart.code === product.code) {
+          cart.quantity++;
+          value = true;
+        }
+      });
+
+      if (!value) {
+        state.shoppingCart.push(product);
+      }
+    } else {
+      state.shoppingCart.push(product);
+    }
   },
   deleteProduct (state, id) {
     const products = [];

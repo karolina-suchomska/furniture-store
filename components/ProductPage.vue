@@ -144,7 +144,12 @@ export default {
       this.popup = value;
     },
     addToShoppingCart () {
-      this.$store.commit('database/addToShoppingCart', this.product);
+      const newProduct = this.product;
+
+      // newProduct.quantity += this.counter;
+      // newProduct.quantity -= 1;
+
+      this.$store.commit('database/addToShoppingCart', newProduct);
       this.value = true;
 
       setTimeout(() => {
