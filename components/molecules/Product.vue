@@ -44,7 +44,7 @@ export default {
   },
   methods: {
     addToShoppingCart () {
-      this.$store.commit('database/addToShoppingCart', this.product);
+      this.$store.commit('database/addToShoppingCart', [this.product, 1]);
       this.value = true;
 
       setTimeout(() => {

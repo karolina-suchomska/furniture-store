@@ -136,7 +136,8 @@ export default {
       variable: true,
       counter: 1,
       popup: false,
-      value: false
+      value: false,
+      newProduct: {}
     };
   },
   methods: {
@@ -144,13 +145,13 @@ export default {
       this.popup = value;
     },
     addToShoppingCart () {
-      const newProduct = this.product;
+      this.newProduct = {
+        ...this.product
+      };
 
-      // newProduct.quantity += this.counter;
-      // newProduct.quantity -= 1;
-
-      this.$store.commit('database/addToShoppingCart', newProduct);
+      this.$store.commit('database/addToShoppingCart', [this.newProduct, this.counter]);
       this.value = true;
+      this.counter = 1;
 
       setTimeout(() => {
         this.value = false;
