@@ -9,10 +9,11 @@
         type="number"
         min="1"
         max="20"
+        disabled
     >
     <span
         class="plus"
-        @click="counter++"
+        @click="counter < 20 ? counter++ : counter"
     />
   </div>
 </template>
