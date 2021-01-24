@@ -25,9 +25,7 @@
           :products="products"
       />
       <div class="shopping-cart-container">
-        <div>
-          Wysyłka
-        </div>
+        <Shipment />
         <div>
           Podsumowanie
         </div>
@@ -38,10 +36,12 @@
 
 <script>
 import ShoppingCartProducts from '@/components/ShoppingCartProducts';
+import Shipment from '@/components/Shipment';
 
 export default {
   components: {
-    ShoppingCartProducts
+    ShoppingCartProducts,
+    Shipment
   },
   computed: {
     products () {
