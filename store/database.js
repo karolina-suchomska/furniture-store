@@ -15,13 +15,7 @@ export const mutations = {
   searchProduct (state, data) {
     state.searchProduct = data;
   },
-  changingQuantity (state, [id, value]) {
-    state.shoppingCart.find((product) => {
-      if (product.id === id) {
-        product.quantity = value;
-      }
-    });
-
+  quantityValue (state) {
     state.quantity = 0;
 
     Object.entries(state.shoppingCart).forEach(
@@ -37,6 +31,13 @@ export const mutations = {
     );
 
     return state.quantity;
+  },
+  changingQuantity (state, [id, value]) {
+    state.shoppingCart.find((product) => {
+      if (product.id === id) {
+        product.quantity = value;
+      }
+    });
   },
   addToShoppingCart (state, [product, quantity]) {
     let value = false;
@@ -55,22 +56,6 @@ export const mutations = {
     } else {
       state.shoppingCart.push(product);
     }
-
-    state.quantity = 0;
-
-    Object.entries(state.shoppingCart).forEach(
-      ([key, value]) => {
-        Object.entries(value).forEach(
-          ([keyProduct, valueProduct]) => {
-            if (keyProduct === 'quantity') {
-              state.quantity += valueProduct;
-            }
-          }
-        );
-      }
-    );
-
-    return state.quantity;
   },
   deleteProduct (state, id) {
     const products = [];
@@ -81,6 +66,21 @@ export const mutations = {
       }
     });
     state.shoppingCart = products;
+  }
+};
+
+export const actions = {
+  changingQuantity ({ commit }, [id, value]) {
+    commit('changingQuantity', [id, value]);
+    commit('quantityValue');
+  },
+  addToShoppingCart ({ commit }, [product, quantity]) {
+    commit('addToShoppingCart', [product, quantity]);
+    commit('quantityValue');
+  },
+  deleteProduct ({ commit }, id) {
+    commit('deleteProduct', id);
+    commit('quantityValue');
   }
 };
 

@@ -139,7 +139,7 @@ export default {
         ...this.product
       };
 
-      this.$store.commit('database/addToShoppingCart', [this.newProduct, this.counter]);
+      this.$store.dispatch('database/addToShoppingCart', [this.newProduct, this.counter]);
       this.value = true;
       this.counter = 1;
 

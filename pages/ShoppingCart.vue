@@ -127,11 +127,11 @@ export default {
       this.popup = value;
     },
     popupDeleteProduct (value) {
-      this.$store.commit('database/deleteProduct', this.idProduct);
+      this.$store.dispatch('database/deleteProduct', this.idProduct);
       this.popup = value;
     },
     counterValue (value, id) {
-      this.$store.commit('database/changingQuantity', [id, value]);
+      this.$store.dispatch('database/changingQuantity', [id, value]);
     }
   }
 };
