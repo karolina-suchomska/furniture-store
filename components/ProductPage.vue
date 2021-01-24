@@ -82,22 +82,10 @@
             />
           </div>
           <div class="product-actions">
-            <div class="counter">
-              <span
-                  class="minus"
-                  @click="counter > 1 ? counter-- : counter"
-              />
-              <input
-                  :value="counter"
-                  type="number"
-                  min="1"
-                  max="20"
-              >
-              <span
-                  class="plus"
-                  @click="counter++"
-              />
-            </div>
+            <QuantityProductCounter
+                :counter-value="counter"
+                @counter="counterValue"
+            />
             <button
                 type="button"
                 class="button-buy"
@@ -120,10 +108,12 @@
 
 <script>
 import PopUpInfo from '@/components/molecules/PopUpInfo';
+import QuantityProductCounter from '@/components/atoms/QuantityProductCounter';
 
 export default {
   components: {
-    PopUpInfo
+    PopUpInfo,
+    QuantityProductCounter
   },
   props: {
     product: {
@@ -156,6 +146,9 @@ export default {
       setTimeout(() => {
         this.value = false;
       }, 1000);
+    },
+    counterValue (value) {
+      this.counter = value;
     }
   }
 };

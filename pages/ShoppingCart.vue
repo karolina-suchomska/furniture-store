@@ -72,7 +72,10 @@
               {{ new Intl.NumberFormat().format(product.price) + ' zł' }}
             </td>
             <td>
-              {{ product.quantity }}
+              <QuantityProductCounter
+                  :counter-value="product.quantity"
+                  @counter="counterValue"
+              />
             </td>
             <td>
               {{ sum (product.price, product.quantity) + ' zł' }}
@@ -92,16 +95,19 @@
 
 <script>
 import PopUpDelete from '@/components/molecules/PopUpDelete';
+import QuantityProductCounter from '@/components/atoms/QuantityProductCounter';
 
 export default {
   components: {
-    PopUpDelete
+    PopUpDelete,
+    QuantityProductCounter
   },
   data () {
     return {
       value: true,
       popup: false,
-      idProduct: 0
+      idProduct: 0,
+      counter: 1
     };
   },
   computed: {
@@ -123,6 +129,9 @@ export default {
     popupDeleteProduct (value) {
       this.$store.commit('database/deleteProduct', this.idProduct);
       this.popup = value;
+    },
+    counterValue (value) {
+      // this.counter = value;
     }
   }
 };
