@@ -15,6 +15,29 @@ export const mutations = {
   searchProduct (state, data) {
     state.searchProduct = data;
   },
+  changingQuantity (state, [id, value]) {
+    state.shoppingCart.find((product) => {
+      if (product.id === id) {
+        product.quantity = value;
+      }
+    });
+
+    state.quantity = 0;
+
+    Object.entries(state.shoppingCart).forEach(
+      ([key, value]) => {
+        Object.entries(value).forEach(
+          ([keyProduct, valueProduct]) => {
+            if (keyProduct === 'quantity') {
+              state.quantity += valueProduct;
+            }
+          }
+        );
+      }
+    );
+
+    return state.quantity;
+  },
   addToShoppingCart (state, [product, quantity]) {
     let value = false;
 

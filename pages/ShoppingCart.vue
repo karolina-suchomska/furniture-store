@@ -74,7 +74,7 @@
             <td>
               <QuantityProductCounter
                   :counter-value="product.quantity"
-                  @counter="counterValue"
+                  @counter="counterValue($event, product.id)"
               />
             </td>
             <td>
@@ -130,8 +130,8 @@ export default {
       this.$store.commit('database/deleteProduct', this.idProduct);
       this.popup = value;
     },
-    counterValue (value) {
-      // this.counter = value;
+    counterValue (value, id) {
+      this.$store.commit('database/changingQuantity', [id, value]);
     }
   }
 };
