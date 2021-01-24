@@ -8,7 +8,8 @@ export const state = () => ({
   popular,
   searchProduct: '',
   shoppingCart: [],
-  quantity: 0
+  quantity: 0,
+  sum: 0
 });
 
 export const mutations = {
@@ -66,6 +67,17 @@ export const mutations = {
       }
     });
     state.shoppingCart = products;
+  },
+  sumProduct (state) {
+    state.sum = 0;
+
+    Object.entries(state.shoppingCart).forEach(
+      ([key, value]) => {
+        state.sum += (value.price * value.quantity);
+      }
+    );
+
+    return state.sum;
   }
 };
 

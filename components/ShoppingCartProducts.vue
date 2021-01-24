@@ -82,7 +82,7 @@ export default {
   },
   props: {
     products: {
-      type: Object,
+      type: [Array, Object],
       default: null
     }
   },

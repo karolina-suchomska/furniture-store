@@ -1,5 +1,7 @@
 <template>
   <div class="shipment">
-    Wysyłka paczki
+    <h4 class="shipment-title">
+      Sposób dostawy
+    </h4>
   </div>
 </template>
