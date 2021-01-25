@@ -6,7 +6,7 @@
     <div>
       Łączna kwota:
       <p>
-        {{ sum }}
+        {{ sum.toFixed(2) }}
       </p>
     </div>
   </div>

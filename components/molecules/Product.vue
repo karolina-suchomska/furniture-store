@@ -18,7 +18,7 @@
           {{ product.name }}
         </h4>
         <p class="product-price">
-          {{ new Intl.NumberFormat().format(product.price) + ' zł' }}
+          {{ new Intl.NumberFormat('pl', { style: 'currency', currency: 'PLN' }).format(product.price) }}
         </p>
       </div>
       <button

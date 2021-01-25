@@ -48,7 +48,7 @@
             </router-link>
           </td>
           <td>
-            {{ new Intl.NumberFormat().format(product.price) + ' zł' }}
+            {{ new Intl.NumberFormat('pl', { style: 'currency', currency: 'PLN' }).format(product.price) }}
           </td>
           <td>
             <QuantityProductCounter
@@ -57,7 +57,7 @@
             />
           </td>
           <td>
-            {{ sum (product.price, product.quantity) + ' zł' }}
+            {{ sum (product.price, product.quantity) }}
           </td>
           <td>
             <button
@@ -96,7 +96,7 @@ export default {
   },
   methods: {
     sum (price, quantity) {
-      return new Intl.NumberFormat().format(price * quantity);
+      return new Intl.NumberFormat('pl', { style: 'currency', currency: 'PLN' }).format((price * quantity));
     },
     deleteProduct (id) {
       this.popup = true;
