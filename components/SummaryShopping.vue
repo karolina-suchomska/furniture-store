@@ -6,7 +6,7 @@
     <div>
       Łączna kwota:
       <p>
-        {{ sum.toFixed(2) }}
+        {{ new Intl.NumberFormat('pl', { style: 'currency', currency: 'PLN' }).format(sum) }}
       </p>
     </div>
   </div>
