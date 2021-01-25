@@ -1,0 +1,63 @@
+.shipment-radio {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid $color-pirmary;
+  text-align: left;
+
+  input[type=radio] {
+    position: absolute;
+    visibility: hidden;
+
+    &:checked ~ .check {
+      border: 5px solid $color-secondary;
+
+      &::before{
+        background-color: $color-secondary;
+      }
+    }
+  }
+
+  label {
+    display: block;
+    position: relative;
+    padding: 25px 25px 25px 80px;
+    z-index: 9;
+    cursor: pointer;
+  }
+
+  .check {
+    display: block;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 22px;
+    left: 20px;
+    border: 5px solid $color-pirmary;
+    border-radius: 50%;
+    z-index: 5;
+  }
+
+  .check::before {
+    display: block;
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    top: 2px;
+    left: 2px;
+    margin: auto;
+    border-radius: 50%;
+    content: '';
+  }
+
+  &:hover {
+    label {
+      color: rgba($text-primary, 0.7);
+    }
+
+    .check {
+      border: 5px solid $shadow;
+    }
+  }
+}
