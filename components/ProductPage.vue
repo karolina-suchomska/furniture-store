@@ -67,14 +67,14 @@
             {{ product.name }}
           </h2>
           <h3 class="price">
-            {{ new Intl.NumberFormat().format(product.price) + " zł" }}
+            {{ new Intl.NumberFormat('pl', { style: 'currency', currency: 'PLN' }).format(product.price) }}
           </h3>
           <p>
             {{ "Czas wysyłki: " + product.shippingTime + " tygodni" }}
           </p>
           <div class="shipping-information">
             <p>
-              {{ "Koszt wysyłki od " + product.shippingCost + " zł" }}
+              {{ "Koszt wysyłki od " + new Intl.NumberFormat('pl', { style: 'currency', currency: 'PLN' }).format(product.shippingCost) }}
             </p>
             <button
                 class="info"

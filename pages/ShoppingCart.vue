@@ -25,12 +25,8 @@
           :products="products"
       />
       <div class="shopping-cart-container">
-        <div>
-          Wysyłka
-        </div>
-        <div>
-          Podsumowanie
-        </div>
+        <Shipment />
+        <SummaryShopping />
       </div>
     </div>
   </div>
@@ -38,10 +34,14 @@
 
 <script>
 import ShoppingCartProducts from '@/components/ShoppingCartProducts';
+import Shipment from '@/components/Shipment';
+import SummaryShopping from '@/components/SummaryShopping';
 
 export default {
   components: {
-    ShoppingCartProducts
+    ShoppingCartProducts,
+    Shipment,
+    SummaryShopping
   },
   computed: {
     products () {

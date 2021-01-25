@@ -17,6 +17,7 @@
 @import 'atoms/shopping-cart-icon.scss';
 @import 'atoms/added-to-cart';
 @import 'atoms/quantity-product-counter';
+@import 'atoms/radio';
 
 // molecules
 @import 'molecules/shipping-cost-info';
@@ -36,6 +37,8 @@
 @import 'components/popular-products';
 @import 'components/product-page';
 @import 'components/shopping-cart-table';
+@import 'components/shipment';
+@import 'components/summary-shopping';
 
 // pages
 @import 'pages/chairs';
