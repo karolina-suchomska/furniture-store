@@ -1,15 +1,18 @@
 import chairs from '@/assets/database/chairs.json';
 import tables from '@/assets/database/tables.json';
 import popular from '@/assets/database/popular-products.json';
+import shipments from '@/assets/database/shipment.json';
 
 export const state = () => ({
   chairs,
   tables,
   popular,
+  shipments,
   searchProduct: '',
   shoppingCart: [],
   quantity: 0,
-  sum: 0
+  sum: 0,
+  shipment: 'shipment_1'
 });
 
 export const mutations = {
@@ -78,6 +81,9 @@ export const mutations = {
     );
 
     return state.sum;
+  },
+  changeShipment (state, data) {
+    state.shipment = data;
   }
 };
 
@@ -85,14 +91,17 @@ export const actions = {
   changingQuantity ({ commit }, [id, value]) {
     commit('changingQuantity', [id, value]);
     commit('quantityValue');
+    commit('sumProduct');
   },
   addToShoppingCart ({ commit }, [product, quantity]) {
     commit('addToShoppingCart', [product, quantity]);
     commit('quantityValue');
+    commit('sumProduct');
   },
   deleteProduct ({ commit }, id) {
     commit('deleteProduct', id);
     commit('quantityValue');
+    commit('sumProduct');
   }
 };
 

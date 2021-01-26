@@ -1,0 +1,18 @@
+{
+  "shipment_1": {
+    "name": "Przesyłka kurierska",
+    "price": 40
+  },
+  "shipment_2": {
+    "name": "Przesyłka kurierska za pobraniem",
+    "price": 60
+  },
+  "shipment_3": {
+    "name": "Odbiór w punkcie",
+    "price": 50
+  },
+  "shipment_4": {
+    "name": "Odbiór osobisty",
+    "price": 0
+  }
+}
