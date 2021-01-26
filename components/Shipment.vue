@@ -10,6 +10,7 @@
           type="radio"
           name="shipment"
           value="shipment_1"
+          @click="changeShipment('shipment_1')"
       >
       <label for="shipment_1">
         <span>
@@ -28,6 +29,7 @@
           type="radio"
           name="shipment"
           value="shipment_2"
+          @click="changeShipment('shipment_2')"
       >
       <label for="shipment_2">
         <span>
@@ -46,6 +48,7 @@
           type="radio"
           name="shipment"
           value="shipment_3"
+          @click="changeShipment('shipment_3')"
       >
       <label for="shipment_3">
         <span>
@@ -64,6 +67,7 @@
           type="radio"
           name="shipment"
           value="shipment_4"
+          @click="changeShipment('shipment_4')"
       >
       <label for="shipment_4">
         <span>
@@ -84,6 +88,14 @@ export default {
     return {
       shipment: 'shipment_1'
     };
+  },
+  mounted () {
+    this.shipment = this.$store.state.database.shipment;
+  },
+  methods: {
+    changeShipment (value) {
+      this.$store.commit('database/changeShipment', value);
+    }
   }
 };
 </script>
