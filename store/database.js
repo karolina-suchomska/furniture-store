@@ -55,9 +55,11 @@ export const mutations = {
       });
 
       if (!value) {
+        product.quantity = quantity;
         state.shoppingCart.push(product);
       }
     } else {
+      product.quantity = quantity;
       state.shoppingCart.push(product);
     }
   },
