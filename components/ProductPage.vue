@@ -50,7 +50,12 @@
                     v-if="variable"
                     class="description"
                 >
-                  Opis jdksaljdlsjlsajlkdsajds
+                  <p>
+                    {{ 'Kod produktu: ' + product.code }}
+                  </p>
+                  <p>
+                    {{ product.descriptions }}
+                  </p>
                 </div>
                 <div
                     v-else-if="!variable"
