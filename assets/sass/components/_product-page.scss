@@ -8,6 +8,17 @@
     max-height: 400px;
   }
 
+  table {
+    width: 100%;
+    padding: 0 19px 12px;
+    border-bottom: 3px solid #ececec;
+    font-size: 14px;
+
+    th {
+      width: 340px;
+    }
+  }
+
   .container {
     text-align: center;
     margin-top: 50px;
@@ -30,6 +41,9 @@
     .box-row {
       padding: 25px;
       text-align: left;
+      font-size: 15px;
+      letter-spacing: 0.5px;
+      line-height: 22px;
     }
   }
 

@@ -51,9 +51,6 @@
                     class="description"
                 >
                   <p>
-                    {{ 'Kod produktu: ' + product.code }}
-                  </p>
-                  <p>
                     {{ product.descriptions }}
                   </p>
                 </div>
@@ -61,7 +58,59 @@
                     v-else-if="!variable"
                     class="technical-data"
                 >
-                  Dane techniczne jsakdhkjsahdsajhk
+                  <div class="box-col">
+                    <h4>
+                      Wymiary
+                    </h4>
+                    <table>
+                      <tbody>
+                        <tr
+                            v-for="dimension in product.dimensions"
+                            :key="dimension.name"
+                        >
+                          <th>
+                            {{ dimension.name }}
+                          </th>
+                          <td>
+                            {{ dimension.description }}
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="box-col">
+                    <h4>
+                      Cechy produktu
+                    </h4>
+                    <table>
+                      <tbody>
+                        <tr>
+                          <th>Kolor</th>
+                          <td>Czarny</td>
+                        </tr>
+                        <tr>
+                          <th>Materiał</th>
+                          <td>Drewno</td>
+                        </tr>
+                        <tr>
+                          <th>Podłokietniki</th>
+                          <td>Brak</td>
+                        </tr>
+                        <tr>
+                          <th>Rodzaj nóg</th>
+                          <td>Proste</td>
+                        </tr>
+                        <tr>
+                          <th>Wysokość oparcia</th>
+                          <td>Wysokie</td>
+                        </tr>
+                        <tr>
+                          <th>Kod produktu</th>
+                          <td>{{ product.code }}</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
                 </div>
               </div>
             </div>
