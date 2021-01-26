@@ -2,7 +2,7 @@
   {
     "id": 3,
     "img": "chair_4.png",
-    "name": "Czarne Krzesło",
+    "name": "Czarne Krzesło A-D3",
     "price": 976.99,
     "shippingTime": "1-2",
     "shippingCost": 40,
@@ -15,7 +15,7 @@
   {
     "id": 12,
     "img": "table_4.png",
-    "name": "Stół",
+    "name": "Stół Y-75",
     "price": 976.99,
     "shippingTime": "1-2",
     "shippingCost": 40,
@@ -28,7 +28,7 @@
   {
     "id": 16,
     "img": "table_2.png",
-    "name": "Stół 6",
+    "name": "Stół D-32",
     "price": 99.89,
     "shippingTime": "1-2",
     "shippingCost": 40,

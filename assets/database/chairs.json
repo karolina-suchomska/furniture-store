@@ -2,7 +2,7 @@
   {
     "id": 0,
     "img": "chair_1.png",
-    "name": "Krzesło 1",
+    "name": "Krzesło D-46",
     "price": 385.99,
     "shippingTime": "1-2",
     "shippingCost": 40,
@@ -10,12 +10,35 @@
     "species": "chair",
     "category": "Krzesła",
     "code": "D46HSW",
-    "quantity": 1
+    "quantity": 1,
+    "descriptions": "Krzesło D-46 to mebel stworzony z myślą o nowoczesnych i praktycznych przestrzeniach, który z łatwością wpiszę się w każdy rodzaj aranżacji. Nienagannie zaprojektowane i zachwycające w swojej prostocie krzesło D-46 stanowi świetne rozwiązanie do wnętrz, które mają nie tylko urzekać pięknem, ale także wprowadzać spokojną atmosferę. To uniwersalny mebel, który potrafi się podobać nawet najbardziej wymagającym klientom. Krzesło przygotowane jest do samodzielnego montażu.",
+    "dimensions": [
+      {
+        "name": "Szerokość",
+        "description": "50 cm"
+      },
+      {
+        "name": "Wysokość",
+        "description": "72 cm"
+      },
+      {
+        "name": "Głębokość",
+        "description": "43 cm"
+      },
+      {
+        "name": "Wysokość siedziska",
+        "description": "47 cm"
+      },
+      {
+        "name": "Waga",
+        "description": "8 kg"
+      }
+    ]
   },
   {
     "id": 1,
     "img": "chair_2.png",
-    "name": "Drewniane Krzesło",
+    "name": "Drewniane Krzesło C-F5",
     "price": 72.99,
     "shippingTime": "1-2",
     "shippingCost": 40,
@@ -23,12 +46,35 @@
     "species": "chair",
     "category": "Krzesła",
     "code": "CF56JO",
-    "quantity": 1
+    "quantity": 1,
+    "descriptions": "Krzesło C-F5 to mebel stworzony z myślą o nowoczesnych i praktycznych przestrzeniach, który z łatwością wpiszę się w każdy rodzaj aranżacji. Nienagannie zaprojektowane i zachwycające w swojej prostocie krzesło C-F5 stanowi świetne rozwiązanie do wnętrz, które mają nie tylko urzekać pięknem, ale także wprowadzać spokojną atmosferę. To uniwersalny mebel, który potrafi się podobać nawet najbardziej wymagającym klientom. Krzesło przygotowane jest do samodzielnego montażu.",
+    "dimensions": [
+      {
+        "name": "Szerokość",
+        "description": "50 cm"
+      },
+      {
+        "name": "Wysokość",
+        "description": "72 cm"
+      },
+      {
+        "name": "Głębokość",
+        "description": "43 cm"
+      },
+      {
+        "name": "Wysokość siedziska",
+        "description": "47 cm"
+      },
+      {
+        "name": "Waga",
+        "description": "8 kg"
+      }
+    ]
   },
   {
     "id": 2,
     "img": "chair_3.png",
-    "name": "Krzesło 2",
+    "name": "Krzesło F-32",
     "price": 154.89,
     "shippingTime": "1-2",
     "shippingCost": 40,
@@ -36,12 +82,35 @@
     "species": "chair",
     "category": "Krzesła",
     "code": "F32J8U",
-    "quantity": 1
+    "quantity": 1,
+    "descriptions": "Krzesło F-32 to mebel stworzony z myślą o nowoczesnych i praktycznych przestrzeniach, który z łatwością wpiszę się w każdy rodzaj aranżacji. Nienagannie zaprojektowane i zachwycające w swojej prostocie krzesło F-32 stanowi świetne rozwiązanie do wnętrz, które mają nie tylko urzekać pięknem, ale także wprowadzać spokojną atmosferę. To uniwersalny mebel, który potrafi się podobać nawet najbardziej wymagającym klientom. Krzesło przygotowane jest do samodzielnego montażu.",
+    "dimensions": [
+      {
+        "name": "Szerokość",
+        "description": "50 cm"
+      },
+      {
+        "name": "Wysokość",
+        "description": "72 cm"
+      },
+      {
+        "name": "Głębokość",
+        "description": "43 cm"
+      },
+      {
+        "name": "Wysokość siedziska",
+        "description": "47 cm"
+      },
+      {
+        "name": "Waga",
+        "description": "8 kg"
+      }
+    ]
   },
   {
     "id": 3,
     "img": "chair_4.png",
-    "name": "Czarne Krzesło",
+    "name": "Czarne Krzesło A-D3",
     "price": 976.99,
     "shippingTime": "1-2",
     "shippingCost": 40,
@@ -49,12 +118,35 @@
     "species": "chair",
     "category": "Krzesła",
     "code": "AD32K9",
-    "quantity": 1
+    "quantity": 1,
+    "descriptions": "Krzesło A-D3 to mebel stworzony z myślą o nowoczesnych i praktycznych przestrzeniach, który z łatwością wpiszę się w każdy rodzaj aranżacji. Nienagannie zaprojektowane i zachwycające w swojej prostocie krzesło A-D3 stanowi świetne rozwiązanie do wnętrz, które mają nie tylko urzekać pięknem, ale także wprowadzać spokojną atmosferę. To uniwersalny mebel, który potrafi się podobać nawet najbardziej wymagającym klientom. Krzesło przygotowane jest do samodzielnego montażu.",
+    "dimensions": [
+      {
+        "name": "Szerokość",
+        "description": "50 cm"
+      },
+      {
+        "name": "Wysokość",
+        "description": "72 cm"
+      },
+      {
+        "name": "Głębokość",
+        "description": "43 cm"
+      },
+      {
+        "name": "Wysokość siedziska",
+        "description": "47 cm"
+      },
+      {
+        "name": "Waga",
+        "description": "8 kg"
+      }
+    ]
   },
   {
     "id": 4,
     "img": "chair_3.png",
-    "name": "Krzesło 4",
+    "name": "Krzesło P-87",
     "price": 258.99,
     "shippingTime": "1-2",
     "shippingCost": 40,
@@ -62,12 +154,35 @@
     "species": "chair",
     "category": "Krzesła",
     "code": "P87F4S",
-    "quantity": 1
+    "quantity": 1,
+    "descriptions": "Krzesło P-87 to mebel stworzony z myślą o nowoczesnych i praktycznych przestrzeniach, który z łatwością wpiszę się w każdy rodzaj aranżacji. Nienagannie zaprojektowane i zachwycające w swojej prostocie krzesło P-87 stanowi świetne rozwiązanie do wnętrz, które mają nie tylko urzekać pięknem, ale także wprowadzać spokojną atmosferę. To uniwersalny mebel, który potrafi się podobać nawet najbardziej wymagającym klientom. Krzesło przygotowane jest do samodzielnego montażu.",
+    "dimensions": [
+      {
+        "name": "Szerokość",
+        "description": "50 cm"
+      },
+      {
+        "name": "Wysokość",
+        "description": "72 cm"
+      },
+      {
+        "name": "Głębokość",
+        "description": "43 cm"
+      },
+      {
+        "name": "Wysokość siedziska",
+        "description": "47 cm"
+      },
+      {
+        "name": "Waga",
+        "description": "8 kg"
+      }
+    ]
   },
   {
     "id": 5,
     "img": "chair_4.png",
-    "name": "Krzesło 5",
+    "name": "Krzesło R-45",
     "price": 54.99,
     "shippingTime": "1-2",
     "shippingCost": 40,
@@ -75,12 +190,35 @@
     "species": "chair",
     "category": "Krzesła",
     "code": "R45G6H",
-    "quantity": 1
+    "quantity": 1,
+    "descriptions": "Krzesło R-45 to mebel stworzony z myślą o nowoczesnych i praktycznych przestrzeniach, który z łatwością wpiszę się w każdy rodzaj aranżacji. Nienagannie zaprojektowane i zachwycające w swojej prostocie krzesło R-45 stanowi świetne rozwiązanie do wnętrz, które mają nie tylko urzekać pięknem, ale także wprowadzać spokojną atmosferę. To uniwersalny mebel, który potrafi się podobać nawet najbardziej wymagającym klientom. Krzesło przygotowane jest do samodzielnego montażu.",
+    "dimensions": [
+      {
+        "name": "Szerokość",
+        "description": "50 cm"
+      },
+      {
+        "name": "Wysokość",
+        "description": "72 cm"
+      },
+      {
+        "name": "Głębokość",
+        "description": "43 cm"
+      },
+      {
+        "name": "Wysokość siedziska",
+        "description": "47 cm"
+      },
+      {
+        "name": "Waga",
+        "description": "8 kg"
+      }
+    ]
   },
   {
     "id": 6,
     "img": "chair_2.png",
-    "name": "Krzesło 6",
+    "name": "Krzesło C-3S",
     "price": 99.89,
     "shippingTime": "1-2",
     "shippingCost": 40,
@@ -88,12 +226,35 @@
     "species": "chair",
     "category": "Krzesła",
     "code": "C3S79M",
-    "quantity": 1
+    "quantity": 1,
+    "descriptions": "Krzesło C-3S to mebel stworzony z myślą o nowoczesnych i praktycznych przestrzeniach, który z łatwością wpiszę się w każdy rodzaj aranżacji. Nienagannie zaprojektowane i zachwycające w swojej prostocie krzesło C-3S stanowi świetne rozwiązanie do wnętrz, które mają nie tylko urzekać pięknem, ale także wprowadzać spokojną atmosferę. To uniwersalny mebel, który potrafi się podobać nawet najbardziej wymagającym klientom. Krzesło przygotowane jest do samodzielnego montażu.",
+    "dimensions": [
+      {
+        "name": "Szerokość",
+        "description": "50 cm"
+      },
+      {
+        "name": "Wysokość",
+        "description": "72 cm"
+      },
+      {
+        "name": "Głębokość",
+        "description": "43 cm"
+      },
+      {
+        "name": "Wysokość siedziska",
+        "description": "47 cm"
+      },
+      {
+        "name": "Waga",
+        "description": "8 kg"
+      }
+    ]
   },
   {
     "id": 7,
     "img": "chair_1.png",
-    "name": "Krzesło 7",
+    "name": "Krzesło K-76",
     "price": 329.99,
     "shippingTime": "1-2",
     "shippingCost": 40,
@@ -101,12 +262,35 @@
     "species": "chair",
     "category": "Krzesła",
     "code": "K76L4D",
-    "quantity": 1
+    "quantity": 1,
+    "descriptions": "Krzesło K-76 to mebel stworzony z myślą o nowoczesnych i praktycznych przestrzeniach, który z łatwością wpiszę się w każdy rodzaj aranżacji. Nienagannie zaprojektowane i zachwycające w swojej prostocie krzesło K-76 stanowi świetne rozwiązanie do wnętrz, które mają nie tylko urzekać pięknem, ale także wprowadzać spokojną atmosferę. To uniwersalny mebel, który potrafi się podobać nawet najbardziej wymagającym klientom. Krzesło przygotowane jest do samodzielnego montażu.",
+    "dimensions": [
+      {
+        "name": "Szerokość",
+        "description": "50 cm"
+      },
+      {
+        "name": "Wysokość",
+        "description": "72 cm"
+      },
+      {
+        "name": "Głębokość",
+        "description": "43 cm"
+      },
+      {
+        "name": "Wysokość siedziska",
+        "description": "47 cm"
+      },
+      {
+        "name": "Waga",
+        "description": "8 kg"
+      }
+    ]
   },
   {
     "id": 8,
     "img": "chair_2.png",
-    "name": "Krzesło",
+    "name": "Krzesło G-5J",
     "price": 198.99,
     "shippingTime": "1-2",
     "shippingCost": 40,
@@ -114,6 +298,29 @@
     "species": "chair",
     "category": "Krzesła",
     "code": "G5J87K",
-    "quantity": 1
+    "quantity": 1,
+    "descriptions": "Krzesło G-5J to mebel stworzony z myślą o nowoczesnych i praktycznych przestrzeniach, który z łatwością wpiszę się w każdy rodzaj aranżacji. Nienagannie zaprojektowane i zachwycające w swojej prostocie krzesło G-5J stanowi świetne rozwiązanie do wnętrz, które mają nie tylko urzekać pięknem, ale także wprowadzać spokojną atmosferę. To uniwersalny mebel, który potrafi się podobać nawet najbardziej wymagającym klientom. Krzesło przygotowane jest do samodzielnego montażu.",
+    "dimensions": [
+      {
+        "name": "Szerokość",
+        "description": "50 cm"
+      },
+      {
+        "name": "Wysokość",
+        "description": "72 cm"
+      },
+      {
+        "name": "Głębokość",
+        "description": "43 cm"
+      },
+      {
+        "name": "Wysokość siedziska",
+        "description": "47 cm"
+      },
+      {
+        "name": "Waga",
+        "description": "8 kg"
+      }
+    ]
   }
 ]
