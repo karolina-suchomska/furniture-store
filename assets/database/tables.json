@@ -11,7 +11,51 @@
     "category": "Stoły",
     "code": "K43DY9",
     "quantity": 1,
-    "descriptions": "Stół K-43 to mebel stworzony z myślą o nowoczesnych i praktycznych przestrzeniach, który z łatwością wpiszę się w każdy rodzaj aranżacji. Nienagannie zaprojektowany i zachwycający w swojej prostocie stół K-43 stanowi świetne rozwiązanie do wnętrz, które mają nie tylko urzekać pięknem, ale także wprowadzać spokojną atmosferę. To uniwersalny mebel, który potrafi się podobać nawet najbardziej wymagającym klientom. Stół przygotowany jest do samodzielnego montażu."
+    "descriptions": "Stół K-43 to mebel stworzony z myślą o nowoczesnych i praktycznych przestrzeniach, który z łatwością wpiszę się w każdy rodzaj aranżacji. Nienagannie zaprojektowany i zachwycający w swojej prostocie stół K-43 stanowi świetne rozwiązanie do wnętrz, które mają nie tylko urzekać pięknem, ale także wprowadzać spokojną atmosferę. To uniwersalny mebel, który potrafi się podobać nawet najbardziej wymagającym klientom. Stół przygotowany jest do samodzielnego montażu.",
+    "dimensions": [
+      {
+        "name": "Dłogość",
+        "description": "120 cm"
+      },
+      {
+        "name": "Szerokość",
+        "description": "70 cm"
+      },
+      {
+        "name": "Wysokość",
+        "description": "76 cm"
+      },
+      {
+        "name": "Długość po rozłożeniu",
+        "description": "160 cm"
+      },
+      {
+        "name": "Waga",
+        "description": "36,5 kg"
+      }
+    ],
+    "technicalData": [
+      {
+        "name": "Kolor",
+        "description": "Biały, dąb sonoma"
+      },
+      {
+        "name": "Materiał",
+        "description": "Drewno, płyta MDF"
+      },
+      {
+        "name": "Kształ blatu",
+        "description": "Prostokątny"
+      },
+      {
+        "name": "Rozkładany",
+        "description": "Tak"
+      },
+      {
+        "name": "Kod produktu",
+        "description": "D46HSW"
+      }
+    ]
   },
   {
     "id": 10,
@@ -25,7 +69,51 @@
     "category": "Stoły",
     "code": "L09P7G",
     "quantity": 1,
-    "descriptions": "Stół L-09 to mebel stworzony z myślą o nowoczesnych i praktycznych przestrzeniach, który z łatwością wpiszę się w każdy rodzaj aranżacji. Nienagannie zaprojektowane i zachwycające w swojej prostocie stół L-09 stanowi świetne rozwiązanie do wnętrz, które mają nie tylko urzekać pięknem, ale także wprowadzać spokojną atmosferę. To uniwersalny mebel, który potrafi się podobać nawet najbardziej wymagającym klientom. Stół przygotowany jest do samodzielnego montażu."
+    "descriptions": "Stół L-09 to mebel stworzony z myślą o nowoczesnych i praktycznych przestrzeniach, który z łatwością wpiszę się w każdy rodzaj aranżacji. Nienagannie zaprojektowane i zachwycające w swojej prostocie stół L-09 stanowi świetne rozwiązanie do wnętrz, które mają nie tylko urzekać pięknem, ale także wprowadzać spokojną atmosferę. To uniwersalny mebel, który potrafi się podobać nawet najbardziej wymagającym klientom. Stół przygotowany jest do samodzielnego montażu.",
+    "dimensions": [
+      {
+        "name": "Dłogość",
+        "description": "120 cm"
+      },
+      {
+        "name": "Szerokość",
+        "description": "70 cm"
+      },
+      {
+        "name": "Wysokość",
+        "description": "76 cm"
+      },
+      {
+        "name": "Długość po rozłożeniu",
+        "description": "160 cm"
+      },
+      {
+        "name": "Waga",
+        "description": "36,5 kg"
+      }
+    ],
+    "technicalData": [
+      {
+        "name": "Kolor",
+        "description": "Biały, dąb sonoma"
+      },
+      {
+        "name": "Materiał",
+        "description": "Drewno, płyta MDF"
+      },
+      {
+        "name": "Kształ blatu",
+        "description": "Prostokątny"
+      },
+      {
+        "name": "Rozkładany",
+        "description": "Tak"
+      },
+      {
+        "name": "Kod produktu",
+        "description": "D46HSW"
+      }
+    ]
   },
   {
     "id": 11,
@@ -39,7 +127,51 @@
     "category": "Stoły",
     "code": "F58JK7",
     "quantity": 1,
-    "descriptions": "Stół F-58 to mebel stworzony z myślą o nowoczesnych i praktycznych przestrzeniach, który z łatwością wpiszę się w każdy rodzaj aranżacji. Nienagannie zaprojektowane i zachwycające w swojej prostocie stół F-58 stanowi świetne rozwiązanie do wnętrz, które mają nie tylko urzekać pięknem, ale także wprowadzać spokojną atmosferę. To uniwersalny mebel, który potrafi się podobać nawet najbardziej wymagającym klientom. Stół przygotowany jest do samodzielnego montażu."
+    "descriptions": "Stół F-58 to mebel stworzony z myślą o nowoczesnych i praktycznych przestrzeniach, który z łatwością wpiszę się w każdy rodzaj aranżacji. Nienagannie zaprojektowane i zachwycające w swojej prostocie stół F-58 stanowi świetne rozwiązanie do wnętrz, które mają nie tylko urzekać pięknem, ale także wprowadzać spokojną atmosferę. To uniwersalny mebel, który potrafi się podobać nawet najbardziej wymagającym klientom. Stół przygotowany jest do samodzielnego montażu.",
+    "dimensions": [
+      {
+        "name": "Dłogość",
+        "description": "120 cm"
+      },
+      {
+        "name": "Szerokość",
+        "description": "70 cm"
+      },
+      {
+        "name": "Wysokość",
+        "description": "76 cm"
+      },
+      {
+        "name": "Długość po rozłożeniu",
+        "description": "160 cm"
+      },
+      {
+        "name": "Waga",
+        "description": "36,5 kg"
+      }
+    ],
+    "technicalData": [
+      {
+        "name": "Kolor",
+        "description": "Biały, dąb sonoma"
+      },
+      {
+        "name": "Materiał",
+        "description": "Drewno, płyta MDF"
+      },
+      {
+        "name": "Kształ blatu",
+        "description": "Prostokątny"
+      },
+      {
+        "name": "Rozkładany",
+        "description": "Tak"
+      },
+      {
+        "name": "Kod produktu",
+        "description": "D46HSW"
+      }
+    ]
   },
   {
     "id": 12,
@@ -53,7 +185,51 @@
     "category": "Stoły",
     "code": "Y75D3O",
     "quantity": 1,
-    "descriptions": "Stół Y-75 to mebel stworzony z myślą o nowoczesnych i praktycznych przestrzeniach, który z łatwością wpiszę się w każdy rodzaj aranżacji. Nienagannie zaprojektowane i zachwycające w swojej prostocie stół Y-75 stanowi świetne rozwiązanie do wnętrz, które mają nie tylko urzekać pięknem, ale także wprowadzać spokojną atmosferę. To uniwersalny mebel, który potrafi się podobać nawet najbardziej wymagającym klientom. Stół przygotowany jest do samodzielnego montażu."
+    "descriptions": "Stół Y-75 to mebel stworzony z myślą o nowoczesnych i praktycznych przestrzeniach, który z łatwością wpiszę się w każdy rodzaj aranżacji. Nienagannie zaprojektowane i zachwycające w swojej prostocie stół Y-75 stanowi świetne rozwiązanie do wnętrz, które mają nie tylko urzekać pięknem, ale także wprowadzać spokojną atmosferę. To uniwersalny mebel, który potrafi się podobać nawet najbardziej wymagającym klientom. Stół przygotowany jest do samodzielnego montażu.",
+    "dimensions": [
+      {
+        "name": "Dłogość",
+        "description": "120 cm"
+      },
+      {
+        "name": "Szerokość",
+        "description": "70 cm"
+      },
+      {
+        "name": "Wysokość",
+        "description": "76 cm"
+      },
+      {
+        "name": "Długość po rozłożeniu",
+        "description": "160 cm"
+      },
+      {
+        "name": "Waga",
+        "description": "36,5 kg"
+      }
+    ],
+    "technicalData": [
+      {
+        "name": "Kolor",
+        "description": "Biały, dąb sonoma"
+      },
+      {
+        "name": "Materiał",
+        "description": "Drewno, płyta MDF"
+      },
+      {
+        "name": "Kształ blatu",
+        "description": "Prostokątny"
+      },
+      {
+        "name": "Rozkładany",
+        "description": "Tak"
+      },
+      {
+        "name": "Kod produktu",
+        "description": "D46HSW"
+      }
+    ]
   },
   {
     "id": 14,
@@ -67,7 +243,51 @@
     "category": "Stoły",
     "code": "R40G7J",
     "quantity": 1,
-    "descriptions": "Stół R-40 to mebel stworzony z myślą o nowoczesnych i praktycznych przestrzeniach, który z łatwością wpiszę się w każdy rodzaj aranżacji. Nienagannie zaprojektowane i zachwycające w swojej prostocie stół R-40 stanowi świetne rozwiązanie do wnętrz, które mają nie tylko urzekać pięknem, ale także wprowadzać spokojną atmosferę. To uniwersalny mebel, który potrafi się podobać nawet najbardziej wymagającym klientom. Stół przygotowany jest do samodzielnego montażu."
+    "descriptions": "Stół R-40 to mebel stworzony z myślą o nowoczesnych i praktycznych przestrzeniach, który z łatwością wpiszę się w każdy rodzaj aranżacji. Nienagannie zaprojektowane i zachwycające w swojej prostocie stół R-40 stanowi świetne rozwiązanie do wnętrz, które mają nie tylko urzekać pięknem, ale także wprowadzać spokojną atmosferę. To uniwersalny mebel, który potrafi się podobać nawet najbardziej wymagającym klientom. Stół przygotowany jest do samodzielnego montażu.",
+    "dimensions": [
+      {
+        "name": "Dłogość",
+        "description": "120 cm"
+      },
+      {
+        "name": "Szerokość",
+        "description": "70 cm"
+      },
+      {
+        "name": "Wysokość",
+        "description": "76 cm"
+      },
+      {
+        "name": "Długość po rozłożeniu",
+        "description": "160 cm"
+      },
+      {
+        "name": "Waga",
+        "description": "36,5 kg"
+      }
+    ],
+    "technicalData": [
+      {
+        "name": "Kolor",
+        "description": "Biały, dąb sonoma"
+      },
+      {
+        "name": "Materiał",
+        "description": "Drewno, płyta MDF"
+      },
+      {
+        "name": "Kształ blatu",
+        "description": "Prostokątny"
+      },
+      {
+        "name": "Rozkładany",
+        "description": "Tak"
+      },
+      {
+        "name": "Kod produktu",
+        "description": "D46HSW"
+      }
+    ]
   },
   {
     "id": 15,
@@ -81,7 +301,51 @@
     "category": "Stoły",
     "code": "F45HK0",
     "quantity": 1,
-    "descriptions": "Stół F-45 to mebel stworzony z myślą o nowoczesnych i praktycznych przestrzeniach, który z łatwością wpiszę się w każdy rodzaj aranżacji. Nienagannie zaprojektowane i zachwycające w swojej prostocie stół F-45 stanowi świetne rozwiązanie do wnętrz, które mają nie tylko urzekać pięknem, ale także wprowadzać spokojną atmosferę. To uniwersalny mebel, który potrafi się podobać nawet najbardziej wymagającym klientom. Stół przygotowany jest do samodzielnego montażu."
+    "descriptions": "Stół F-45 to mebel stworzony z myślą o nowoczesnych i praktycznych przestrzeniach, który z łatwością wpiszę się w każdy rodzaj aranżacji. Nienagannie zaprojektowane i zachwycające w swojej prostocie stół F-45 stanowi świetne rozwiązanie do wnętrz, które mają nie tylko urzekać pięknem, ale także wprowadzać spokojną atmosferę. To uniwersalny mebel, który potrafi się podobać nawet najbardziej wymagającym klientom. Stół przygotowany jest do samodzielnego montażu.",
+    "dimensions": [
+      {
+        "name": "Dłogość",
+        "description": "120 cm"
+      },
+      {
+        "name": "Szerokość",
+        "description": "70 cm"
+      },
+      {
+        "name": "Wysokość",
+        "description": "76 cm"
+      },
+      {
+        "name": "Długość po rozłożeniu",
+        "description": "160 cm"
+      },
+      {
+        "name": "Waga",
+        "description": "36,5 kg"
+      }
+    ],
+    "technicalData": [
+      {
+        "name": "Kolor",
+        "description": "Biały, dąb sonoma"
+      },
+      {
+        "name": "Materiał",
+        "description": "Drewno, płyta MDF"
+      },
+      {
+        "name": "Kształ blatu",
+        "description": "Prostokątny"
+      },
+      {
+        "name": "Rozkładany",
+        "description": "Tak"
+      },
+      {
+        "name": "Kod produktu",
+        "description": "D46HSW"
+      }
+    ]
   },
   {
     "id": 16,
@@ -95,7 +359,51 @@
     "category": "Stoły",
     "code": "D32J7G",
     "quantity": 1,
-    "descriptions": "Stół D-32 to mebel stworzony z myślą o nowoczesnych i praktycznych przestrzeniach, który z łatwością wpiszę się w każdy rodzaj aranżacji. Nienagannie zaprojektowane i zachwycające w swojej prostocie stół D-32 stanowi świetne rozwiązanie do wnętrz, które mają nie tylko urzekać pięknem, ale także wprowadzać spokojną atmosferę. To uniwersalny mebel, który potrafi się podobać nawet najbardziej wymagającym klientom. Stół przygotowany jest do samodzielnego montażu."
+    "descriptions": "Stół D-32 to mebel stworzony z myślą o nowoczesnych i praktycznych przestrzeniach, który z łatwością wpiszę się w każdy rodzaj aranżacji. Nienagannie zaprojektowane i zachwycające w swojej prostocie stół D-32 stanowi świetne rozwiązanie do wnętrz, które mają nie tylko urzekać pięknem, ale także wprowadzać spokojną atmosferę. To uniwersalny mebel, który potrafi się podobać nawet najbardziej wymagającym klientom. Stół przygotowany jest do samodzielnego montażu.",
+    "dimensions": [
+      {
+        "name": "Dłogość",
+        "description": "120 cm"
+      },
+      {
+        "name": "Szerokość",
+        "description": "70 cm"
+      },
+      {
+        "name": "Wysokość",
+        "description": "76 cm"
+      },
+      {
+        "name": "Długość po rozłożeniu",
+        "description": "160 cm"
+      },
+      {
+        "name": "Waga",
+        "description": "36,5 kg"
+      }
+    ],
+    "technicalData": [
+      {
+        "name": "Kolor",
+        "description": "Biały, dąb sonoma"
+      },
+      {
+        "name": "Materiał",
+        "description": "Drewno, płyta MDF"
+      },
+      {
+        "name": "Kształ blatu",
+        "description": "Prostokątny"
+      },
+      {
+        "name": "Rozkładany",
+        "description": "Tak"
+      },
+      {
+        "name": "Kod produktu",
+        "description": "D46HSW"
+      }
+    ]
   },
   {
     "id": 17,
@@ -109,7 +417,51 @@
     "category": "Stoły",
     "code": "S48J6T",
     "quantity": 1,
-    "descriptions": "Stół S-48 to mebel stworzony z myślą o nowoczesnych i praktycznych przestrzeniach, który z łatwością wpiszę się w każdy rodzaj aranżacji. Nienagannie zaprojektowane i zachwycające w swojej prostocie stół S-48 stanowi świetne rozwiązanie do wnętrz, które mają nie tylko urzekać pięknem, ale także wprowadzać spokojną atmosferę. To uniwersalny mebel, który potrafi się podobać nawet najbardziej wymagającym klientom. Stół przygotowany jest do samodzielnego montażu."
+    "descriptions": "Stół S-48 to mebel stworzony z myślą o nowoczesnych i praktycznych przestrzeniach, który z łatwością wpiszę się w każdy rodzaj aranżacji. Nienagannie zaprojektowane i zachwycające w swojej prostocie stół S-48 stanowi świetne rozwiązanie do wnętrz, które mają nie tylko urzekać pięknem, ale także wprowadzać spokojną atmosferę. To uniwersalny mebel, który potrafi się podobać nawet najbardziej wymagającym klientom. Stół przygotowany jest do samodzielnego montażu.",
+    "dimensions": [
+      {
+        "name": "Dłogość",
+        "description": "120 cm"
+      },
+      {
+        "name": "Szerokość",
+        "description": "70 cm"
+      },
+      {
+        "name": "Wysokość",
+        "description": "76 cm"
+      },
+      {
+        "name": "Długość po rozłożeniu",
+        "description": "160 cm"
+      },
+      {
+        "name": "Waga",
+        "description": "36,5 kg"
+      }
+    ],
+    "technicalData": [
+      {
+        "name": "Kolor",
+        "description": "Biały, dąb sonoma"
+      },
+      {
+        "name": "Materiał",
+        "description": "Drewno, płyta MDF"
+      },
+      {
+        "name": "Kształ blatu",
+        "description": "Prostokątny"
+      },
+      {
+        "name": "Rozkładany",
+        "description": "Tak"
+      },
+      {
+        "name": "Kod produktu",
+        "description": "D46HSW"
+      }
+    ]
   },
   {
     "id": 18,
@@ -123,6 +475,50 @@
     "category": "Stoły",
     "code": "F38J6K",
     "quantity": 1,
-    "descriptions": "Stół F-38 to mebel stworzony z myślą o nowoczesnych i praktycznych przestrzeniach, który z łatwością wpiszę się w każdy rodzaj aranżacji. Nienagannie zaprojektowane i zachwycające w swojej prostocie stół F-38 stanowi świetne rozwiązanie do wnętrz, które mają nie tylko urzekać pięknem, ale także wprowadzać spokojną atmosferę. To uniwersalny mebel, który potrafi się podobać nawet najbardziej wymagającym klientom. Stół przygotowany jest do samodzielnego montażu."
+    "descriptions": "Stół F-38 to mebel stworzony z myślą o nowoczesnych i praktycznych przestrzeniach, który z łatwością wpiszę się w każdy rodzaj aranżacji. Nienagannie zaprojektowane i zachwycające w swojej prostocie stół F-38 stanowi świetne rozwiązanie do wnętrz, które mają nie tylko urzekać pięknem, ale także wprowadzać spokojną atmosferę. To uniwersalny mebel, który potrafi się podobać nawet najbardziej wymagającym klientom. Stół przygotowany jest do samodzielnego montażu.",
+    "dimensions": [
+      {
+        "name": "Dłogość",
+        "description": "120 cm"
+      },
+      {
+        "name": "Szerokość",
+        "description": "70 cm"
+      },
+      {
+        "name": "Wysokość",
+        "description": "76 cm"
+      },
+      {
+        "name": "Długość po rozłożeniu",
+        "description": "160 cm"
+      },
+      {
+        "name": "Waga",
+        "description": "36,5 kg"
+      }
+    ],
+    "technicalData": [
+      {
+        "name": "Kolor",
+        "description": "Biały, dąb sonoma"
+      },
+      {
+        "name": "Materiał",
+        "description": "Drewno, płyta MDF"
+      },
+      {
+        "name": "Kształ blatu",
+        "description": "Prostokątny"
+      },
+      {
+        "name": "Rozkładany",
+        "description": "Tak"
+      },
+      {
+        "name": "Kod produktu",
+        "description": "D46HSW"
+      }
+    ]
   }
 ]

@@ -33,6 +33,28 @@
         "name": "Waga",
         "description": "8 kg"
       }
+    ],
+    "technicalData": [
+      {
+        "name": "Kolor",
+        "description": "Czarny"
+      },
+      {
+        "name": "Materiał",
+        "description": "Drewno"
+      },
+      {
+        "name": "Podłokietniki",
+        "description": "Brak"
+      },
+      {
+        "name": "Wysokość oparcia",
+        "description": "Wysokie"
+      },
+      {
+        "name": "Kod produktu",
+        "description": "D46HSW"
+      }
     ]
   },
   {
@@ -68,6 +90,28 @@
       {
         "name": "Waga",
         "description": "8 kg"
+      }
+    ],
+    "technicalData": [
+      {
+        "name": "Kolor",
+        "description": "Czarny"
+      },
+      {
+        "name": "Materiał",
+        "description": "Drewno"
+      },
+      {
+        "name": "Podłokietniki",
+        "description": "Brak"
+      },
+      {
+        "name": "Wysokość oparcia",
+        "description": "Wysokie"
+      },
+      {
+        "name": "Kod produktu",
+        "description": "CF56JO"
       }
     ]
   },
@@ -105,6 +149,28 @@
         "name": "Waga",
         "description": "8 kg"
       }
+    ],
+    "technicalData": [
+      {
+        "name": "Kolor",
+        "description": "Czarny"
+      },
+      {
+        "name": "Materiał",
+        "description": "Drewno"
+      },
+      {
+        "name": "Podłokietniki",
+        "description": "Brak"
+      },
+      {
+        "name": "Wysokość oparcia",
+        "description": "Wysokie"
+      },
+      {
+        "name": "Kod produktu",
+        "description": "F32J8U"
+      }
     ]
   },
   {
@@ -140,6 +206,28 @@
       {
         "name": "Waga",
         "description": "8 kg"
+      }
+    ],
+    "technicalData": [
+      {
+        "name": "Kolor",
+        "description": "Czarny"
+      },
+      {
+        "name": "Materiał",
+        "description": "Drewno"
+      },
+      {
+        "name": "Podłokietniki",
+        "description": "Brak"
+      },
+      {
+        "name": "Wysokość oparcia",
+        "description": "Wysokie"
+      },
+      {
+        "name": "Kod produktu",
+        "description": "AD32K9"
       }
     ]
   },
@@ -177,6 +265,28 @@
         "name": "Waga",
         "description": "8 kg"
       }
+    ],
+    "technicalData": [
+      {
+        "name": "Kolor",
+        "description": "Czarny"
+      },
+      {
+        "name": "Materiał",
+        "description": "Drewno"
+      },
+      {
+        "name": "Podłokietniki",
+        "description": "Brak"
+      },
+      {
+        "name": "Wysokość oparcia",
+        "description": "Wysokie"
+      },
+      {
+        "name": "Kod produktu",
+        "description": "P87F4S"
+      }
     ]
   },
   {
@@ -212,6 +322,28 @@
       {
         "name": "Waga",
         "description": "8 kg"
+      }
+    ],
+    "technicalData": [
+      {
+        "name": "Kolor",
+        "description": "Czarny"
+      },
+      {
+        "name": "Materiał",
+        "description": "Drewno"
+      },
+      {
+        "name": "Podłokietniki",
+        "description": "Brak"
+      },
+      {
+        "name": "Wysokość oparcia",
+        "description": "Wysokie"
+      },
+      {
+        "name": "Kod produktu",
+        "description": "R45G6H"
       }
     ]
   },
@@ -249,6 +381,28 @@
         "name": "Waga",
         "description": "8 kg"
       }
+    ],
+    "technicalData": [
+      {
+        "name": "Kolor",
+        "description": "Czarny"
+      },
+      {
+        "name": "Materiał",
+        "description": "Drewno"
+      },
+      {
+        "name": "Podłokietniki",
+        "description": "Brak"
+      },
+      {
+        "name": "Wysokość oparcia",
+        "description": "Wysokie"
+      },
+      {
+        "name": "Kod produktu",
+        "description": "C3S79M"
+      }
     ]
   },
   {
@@ -285,6 +439,28 @@
         "name": "Waga",
         "description": "8 kg"
       }
+    ],
+    "technicalData": [
+      {
+        "name": "Kolor",
+        "description": "Czarny"
+      },
+      {
+        "name": "Materiał",
+        "description": "Drewno"
+      },
+      {
+        "name": "Podłokietniki",
+        "description": "Brak"
+      },
+      {
+        "name": "Wysokość oparcia",
+        "description": "Wysokie"
+      },
+      {
+        "name": "Kod produktu",
+        "description": "K76L4D"
+      }
     ]
   },
   {
@@ -320,6 +496,28 @@
       {
         "name": "Waga",
         "description": "8 kg"
+      }
+    ],
+    "technicalData": [
+      {
+        "name": "Kolor",
+        "description": "Czarny"
+      },
+      {
+        "name": "Materiał",
+        "description": "Drewno"
+      },
+      {
+        "name": "Podłokietniki",
+        "description": "Brak"
+      },
+      {
+        "name": "Wysokość oparcia",
+        "description": "Wysokie"
+      },
+      {
+        "name": "Kod produktu",
+        "description": "G5J87K"
       }
     ]
   }

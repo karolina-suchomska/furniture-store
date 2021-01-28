@@ -84,29 +84,16 @@
                     </h4>
                     <table>
                       <tbody>
-                        <tr>
-                          <th>Kolor</th>
-                          <td>Czarny</td>
-                        </tr>
-                        <tr>
-                          <th>Materiał</th>
-                          <td>Drewno</td>
-                        </tr>
-                        <tr>
-                          <th>Podłokietniki</th>
-                          <td>Brak</td>
-                        </tr>
-                        <tr>
-                          <th>Rodzaj nóg</th>
-                          <td>Proste</td>
-                        </tr>
-                        <tr>
-                          <th>Wysokość oparcia</th>
-                          <td>Wysokie</td>
-                        </tr>
-                        <tr>
-                          <th>Kod produktu</th>
-                          <td>{{ product.code }}</td>
+                        <tr
+                            v-for="data in product.technicalData"
+                            :key="data.name"
+                        >
+                          <th>
+                            {{ data.name }}
+                          </th>
+                          <td>
+                            {{ data.description }}
+                          </td>
                         </tr>
                       </tbody>
                     </table>
