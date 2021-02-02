@@ -1,3 +1,7 @@
+.button-one {
+  @include btn($text-primary, $color-pirmary, rgba($color-pirmary, 0.7));
+}
+
 .button-back {
   @include btn($text-secondary, $color-secondary, rgba($color-secondary, 0.8));
 }

@@ -21,99 +21,11 @@
       </router-link>
       <div class="row">
         <div class="col">
-          <img
-              :src="'pictures/' + product.type + '/' + product.img"
-              alt="object"
-          >
-          <div class="box">
-            <div class="box-container">
-              <div class="box-row-buttons">
-                <button
-                    type="button"
-                    :class="variable ? 'active' : ''"
-                    class="description-button"
-                    @click="variable = true"
-                >
-                  Opis
-                </button>
-                <button
-                    type="button"
-                    :class="variable ? '' : 'active'"
-                    class="technical-data-button"
-                    @click="variable = false"
-                >
-                  Dane techniczne
-                </button>
-              </div>
-              <div class="box-row">
-                <div
-                    v-if="variable"
-                    class="description"
-                >
-                  <p>
-                    {{ product.descriptions }}
-                  </p>
-                </div>
-                <div
-                    v-else-if="!variable"
-                    class="technical-data"
-                >
-                  <div class="box-col">
-                    <h4>
-                      Wymiary
-                    </h4>
-                    <table>
-                      <tbody>
-                        <tr
-                            v-for="dimension in product.dimensions"
-                            :key="dimension.name"
-                        >
-                          <th>
-                            {{ dimension.name }}
-                          </th>
-                          <td>
-                            {{ dimension.description }}
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <div class="box-col">
-                    <h4>
-                      Cechy produktu
-                    </h4>
-                    <table>
-                      <tbody>
-                        <tr>
-                          <th>Kolor</th>
-                          <td>Czarny</td>
-                        </tr>
-                        <tr>
-                          <th>Materiał</th>
-                          <td>Drewno</td>
-                        </tr>
-                        <tr>
-                          <th>Podłokietniki</th>
-                          <td>Brak</td>
-                        </tr>
-                        <tr>
-                          <th>Rodzaj nóg</th>
-                          <td>Proste</td>
-                        </tr>
-                        <tr>
-                          <th>Wysokość oparcia</th>
-                          <td>Wysokie</td>
-                        </tr>
-                        <tr>
-                          <th>Kod produktu</th>
-                          <td>{{ product.code }}</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div class="product-img">
+            <img
+                :src="'pictures/' + product.type + '/' + product.img"
+                alt="object"
+            >
           </div>
         </div>
         <div class="col">
@@ -156,6 +68,88 @@
           </div>
         </div>
       </div>
+      <div class="row">
+        <div class="col box">
+          <div class="box-container">
+            <div class="box-row-buttons">
+              <button
+                  type="button"
+                  :class="variable ? 'active' : ''"
+                  class="description-button"
+                  @click="variable = true"
+              >
+                Opis
+              </button>
+              <button
+                  type="button"
+                  :class="variable ? '' : 'active'"
+                  class="technical-data-button"
+                  @click="variable = false"
+              >
+                Dane techniczne
+              </button>
+            </div>
+            <div class="box-row">
+              <div
+                  v-if="variable"
+                  class="description"
+              >
+                <p>
+                  {{ product.descriptions }}
+                </p>
+              </div>
+              <div
+                  v-else-if="!variable"
+                  class="technical-data"
+              >
+                <div class="box-col">
+                  <h4>
+                    Wymiary
+                  </h4>
+                  <table>
+                    <tbody>
+                      <tr
+                          v-for="dimension in product.dimensions"
+                          :key="dimension.name"
+                      >
+                        <th>
+                          {{ dimension.name }}
+                        </th>
+                        <td>
+                          {{ dimension.description }}
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="box-col">
+                  <h4>
+                    Cechy produktu
+                  </h4>
+                  <table>
+                    <tbody>
+                      <tr
+                          v-for="data in product.technicalData"
+                          :key="data.name"
+                      >
+                        <th>
+                          {{ data.name }}
+                        </th>
+                        <td>
+                          {{ data.description }}
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <ProductContact />
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -163,11 +157,13 @@
 <script>
 import PopUpInfo from '@/components/molecules/PopUpInfo';
 import QuantityProductCounter from '@/components/atoms/QuantityProductCounter';
+import ProductContact from '@/components/molecules/ProductContact';
 
 export default {
   components: {
     PopUpInfo,
-    QuantityProductCounter
+    QuantityProductCounter,
+    ProductContact
   },
   props: {
     product: {
