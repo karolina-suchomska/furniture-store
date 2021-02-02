@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{218:function(n,t,e){"use strict";e.r(t);var c=e(4),component=Object(c.a)({},(function(){var n=this.$createElement;return(this._self._c||n)("div",{staticClass:"news"},[this._v("\n  Strona z nowościami\n")])}),[],!1,null,null,null);t.default=component.exports}}]);
