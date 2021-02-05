@@ -1,5 +1,11 @@
 <template>
-  <div>
+  <div
+      class="main-container"
+      :class="popUpContact ? 'shadow' : ''"
+  >
+    <PopUpContact
+        v-if="popUpContact"
+    />
     <header>
       <MainHeader />
     </header>
@@ -13,12 +19,19 @@
 import MainHeader from '@/components/MainHeader';
 import Menu from '@/components/Menu';
 import Footer from '@/components/Footer';
+import PopUpContact from '@/components/molecules/PopUpContact';
 
 export default {
   components: {
     MainHeader,
     Menu,
-    Footer
+    Footer,
+    PopUpContact
+  },
+  computed: {
+    popUpContact () {
+      return this.$store.state.popup.popUpContact;
+    }
   }
 };
 </script>

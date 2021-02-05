@@ -4,13 +4,14 @@
       <div class="close">
         <button
             class="button-close"
-            @click="close()"
+            @click="changePopUpValue()"
         />
       </div>
-      <div class="shipping-cost-info">
+      <div class="pop-up-contact">
         <h2>
           Kontakt
         </h2>
+        <input type="text">
       </div>
     </div>
   </div>
@@ -19,8 +20,8 @@
 <script>
 export default {
   methods: {
-    close () {
-      this.$emit('popup', false);
+    changePopUpValue () {
+      this.$store.commit('popup/changeValuePopUpContact', false);
     }
   }
 };

@@ -1,9 +1,5 @@
 <template>
   <div class="product-contact">
-    <PopUpContact
-        v-if="popup"
-        @popup="popupValue"
-    />
     <div class="product-contact-title">
       <h4>
         Masz problem z wyborem?
@@ -16,7 +12,7 @@
       <button
           type="button"
           class="button-one"
-          @click="popup = true"
+          @click="changePopUpValue()"
       >
         Zadaj nam pytanie
       </button>
@@ -39,20 +35,15 @@
 </template>
 
 <script>
-import PopUpContact from '@/components/molecules/PopUpContact';
-
 export default {
-  components: {
-    PopUpContact
-  },
   data () {
     return {
       popup: false
     };
   },
   methods: {
-    popupValue (value) {
-      this.popup = value;
+    changePopUpValue () {
+      this.$store.commit('popup/changeValuePopUpContact', true);
     }
   }
 };

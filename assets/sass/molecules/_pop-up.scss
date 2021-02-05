@@ -2,8 +2,8 @@
   position: relative;
 
   .pop-up-container {
-    position: absolute;
-    top: calc(10vh - 10%);
+    position: fixed;
+    top: 20vh;
     left: 0;
     right: 0;
     max-width: 700px;
